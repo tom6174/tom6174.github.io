@@ -1,0 +1,12 @@
+latex:
+  name: LaTeX
+  description: Some of the greatest words ever spoken.
+  cover: False
+python:
+  name: python
+  description: False
+  cover: False
+github:
+  name: GitHub
+  description: A series of short stories that make you think.
+  cover: False
