@@ -10,7 +10,7 @@ baseurl:
 # Title of the Site
 title: Thomas Learning Log
 # Description of the Site
-description: Preparation for Future
+description: Prepare for tomorrow
 # URL of Image of the Site
 site-image: /assets/images/meta.jpg
 repository: "tom6174/tom6174.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
