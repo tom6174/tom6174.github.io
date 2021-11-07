@@ -1,0 +1,147 @@
+I"<p>Code snippet</p>
+
+<noscript><pre># WhatATheme
+markdown: kramdown
+highlighter: rouge
+
+# URL of the Site
+url: &quot;https://tom6174.github.io&quot;
+# Base URL of the Site (i.e., Name of the Repository in which the Site is hosted)
+baseurl:
+
+# Title of the Site
+title: Thomas Learning Log
+# Description of the Site
+description: Prepare for tomorrow
+# URL of Image of the Site
+site-image: /assets/images/meta.jpg
+repository: &quot;tom6174/tom6174.github.io&quot; # GitHub username/repo-name e.g. &quot;mmistakes/minimal-mistakes&quot;
+# Keywords of the Site
+site-keywords: Site, Template, Theme
+# URL for the Image of custom Favicon
+favicon-url: 
+
+destination: ./output/
+
+# URL of the Image of Custom Hero Image (i.e., the image in the background of the very first section of the Homepage)
+heroimage: https://images.pexels.com/photos/220444/pexels-photo-220444.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=650&amp;w=940
+
+# Social Media and Contact
+# If you don&#39;t want to use any icon, you can leave them blank.
+email: thomas78.song@gmail.com
+facebook_username: Kyoung-Young Song
+twitter_username:  
+instagram_username:  
+linkedin_username: sky6174
+github_username: tom6174
+youtube_channel_id: 
+reddit_username: /
+behance_username: /
+dribbble_username: /
+spotify_username: /
+
+# Google Analytics
+google_analytics: UA-xxxxxxxx-x # replace with your GA tracking identifier
+# Google Analytics을 사용할 경우 GA tracking identifier를 입력
+
+# Disqus
+disqus: True
+disqus_shortname: xxxxxxxx
+# disqus는 온라인 댓글 시스템. 댓글 기능을 사용하기 위해
+# disqus를 이용할 것인지 여부와 만약 사용하면
+# disqus shortname을 입력 ( disqus username이 아님 )
+
+
+# Social info
+navigation: True
+# Navigation bar link를 보여줄건지 여부
+
+subscribers: True
+# subscriber 기능을 사용할건지의 여부
+# 저는 약간의 수정을 통해 subscriber 기능대신
+# lunr.js를 이용한 검색 기능으로 대체 사용했습니다.
+# 검색기능으로 대체하기 위해서
+# `_includes/subscribe-form.html` 파일의 수정이 필요합니다.
+
+
+# Name of the Author
+author-name: SKY
+# URL for the Image of the Author
+author-image: assets/images/photo2012.jpg
+# 60 Words About the Author
+author-about: Kyoung-Young Song born in South Korea, now in San Diego(Aug. 2021-July 2022)
+# URL to the Author&#39;s Profile (i.e., Github, Twitter, Stackoverflow, etc)
+author-url: https://github.com/tom6174
+
+# SASS
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Build settings
+plugins:
+  - jekyll-admin
+  - jekyll-feed
+  - jekyll-gist
+
+# Permalink
+permalink: &quot;blog/:title&quot;
+# permalink: /author/:author
+# permalink: /tag/:title
+# 각각의 post에 고정주소를 어떤 방식으로 할당할 것인지를 결정
+# 이 값을 바꾸면 작성한 포스트의 저장위치나 파일이름이 변경된다.
+
+# Compress
+compress_html:
+  clippings: all
+
+# Defaults
+defaults:
+  -
+    scope:
+      type: &#39;posts&#39;
+    values:
+      layout: post
+      post-image: &quot;&quot;
+      description: &quot;&quot;
+      tags:
+        - &quot;&quot;
+  -
+    scope:
+      type: &#39;pages&#39;
+    values:
+      layout: page
+
+# post
+future: true      
+
+# Exclude
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+# encoding: &quot;utf-8&quot;
+# markdown_ext: &quot;markdown,mkdown,mkdn,mkd,md&quot;
+
+# Travis-CI 설정입니다.
+safe: False
+lsi: False
+
+username: tom6174
+repo: GitHubPageMaker
+# username : travis-ci와 연동하는 github의 username
+# repo: travis-ci와 연동하는 github의 repository이름
+# https://github.com/&lt;username&gt;/&lt;repository&gt;
+
+</pre></noscript>
+<script src="https://gist.github.com/tom6174/ca7797a58d2920eaeef3557a93e0e08e.js"> </script>
+
+:ET
