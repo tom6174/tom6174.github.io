@@ -1,5 +1,5 @@
 ---
 title: Python
-layout: blog
+layout: python
 ---
 
