@@ -139,3 +139,6 @@ repo: GitHubPageMaker
 # repo: travis-ci와 연동하는 github의 repository이름
 # https://github.com/<username>/<repository>
 
+feed:
+  path: feed.xml
+
