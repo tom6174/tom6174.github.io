@@ -5,9 +5,7 @@ post-image: https://raw.githubusercontent.com/thedevslot/WhatATheme/master/asset
 description: This post will guide you to install WhatATheme on your Jekyll site, follow
   the easy steps to set up WhatATheme.
 tags:
-- how to
-- setup
-- theme
+  - latex
 ---
 
 # What is WhatATheme?
