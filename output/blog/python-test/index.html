@@ -1,0 +1,142 @@
+<!DOCTYPE html><html><head><head> <!-- Include Meta Tags Here --><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta http-equiv="X-UA-Compatible" content="ie=edge"><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1 user-scalable=no, shrink-to-fit=no"><meta content='#000000' name='theme-color'/><meta name="keywords" content="Site, Template, Theme"><title>Thomas Learning Log | Python 강좌(1) - Python 기본</title><!-- Open Graph general (Facebook, Pinterest & Google+) --><meta name="og:title" content="Thomas Learning Log | Python 강좌(1) - Python 기본"><meta name="og:description" content=""><meta name="og:image" content=""><meta name="og:image:alt" content="Thomas Learning Log | Python 강좌(1) - Python 기본"><meta name="og:url" content="http://localhost:4000/blog/python-test/"><meta name="article:author" content="https://www.facebook.com/Kyoung-Young Song"><meta name="og:site_name" content="Thomas Learning Log | Python 강좌(1) - Python 기본"><meta name="og:type" content="website"> <!-- Twitter --><meta property="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="Thomas Learning Log | Python 강좌(1) - Python 기본"><meta name="twitter:description" content=""><meta name="twitter:site" content="@"><meta name="twitter:creator" content="@"><meta name="twitter:image:src" content=""> <!-- Search Engine --><meta name="description" content=""><meta name="image" content=""> <!-- Schema.org for Google --><meta itemprop="name" content="Thomas Learning Log | Python 강좌(1) - Python 기본"><meta name="author" content="SKY"/><meta itemprop="description" content=""><meta itemprop="image" content=""> <!-- Global site tag (gtag.js) - Google Analytics --> <script async src="https://www.googletagmanager.com/gtag/js?id="></script> <script> window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); } gtag('js', new Date()); gtag('config', ''); </script><title>Thomas Learning Log</title><link rel="stylesheet" href="/assets/css/style.css"> <script src="https://kit.fontawesome.com/6a97161b76.js" crossorigin="anonymous"></script><link rel="shortcut icon" href="http://localhost:4000/assets/images/logo.png" type="image/x-icon"></head></head><body><nav class="navbar is-black is-fixed-top" role="navigation" aria-label="main navigation" id="navbar"><div class="container"> <!-- logo or branding image on left side --><div class="navbar-brand"> <a class="navbar-item" href="http://localhost:4000/"> <strong>Thomas Learning Log</strong> </a><div class="navbar-burger" data-target="navbar-menu"> <span></span> <!-- <span></span> --> <span></span></div></div><!-- children of navbar-menu must be navbar-start and/or navbar-end --><div class="navbar-menu has-background-black" id="navbar-menu"> <!-- navbar items | left side --> <!--<div class="navbar-start"></div>--> <!-- navbar items | right side --><div class="navbar-end"> <a class="navbar-item " href="http://localhost:4000/">home</a> <a class="navbar-item" href="http://localhost:4000/#about">about</a> <!-- <a class="navbar-item" href="http://localhost:4000/#contact">contact</a> --> <a class="navbar-item " href="http://localhost:4000/blog/latex">LaTeX</a> <a class="navbar-item " href="http://localhost:4000/blog/python">Python</a> <a class="navbar-item " href="http://localhost:4000/blog/github">GitHub</a><div class="navbar-item has-dropdown is-hoverable"> <a class="navbar-link"> more </a><div class="navbar-dropdown has-background-black is-left"> <a href="http://localhost:4000/project/" class="navbar-item has-text-grey-light "> Projects </a> <a href="http://localhost:4000/test-page/" class="navbar-item has-text-grey-light "> Test Page </a> <!--<hr class="navbar-divider"> <a class="navbar-item"> Report an issue </a> --></div></div></div></div></div></nav><!-- Bulma Navbar JS --> <script> document.addEventListener('DOMContentLoaded', function () { /* Get all "navbar-burger" elements */ var $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0); /* Check if there are any navbar burgers */ if ($navbarBurgers.length > 0) { /* Add a click event on each of them */ $navbarBurgers.forEach(function ($el) { $el.addEventListener('click', function () { /* Get the target from the "data-target" attribute */ var target = $el.dataset.target; var $target = document.getElementById(target); /* Toggle the class on both the "navbar-burger" and the "navbar-menu" */ $el.classList.toggle('is-active'); $target.classList.toggle('is-active'); }); }); } }); </script><section class="hero is-fullheight has-text-centered" id="post"><div class="hero-body"><div class="container"> <a href="/blog/python-test/" class="has-text-black" id="title"><h1 class="title has-text-centered is-2 has-text-weight-semibold ">Python 강좌(1) - Python 기본</h1></a><hr class="has-background-black"><div class="columns is-variable is-5"><div class="column is-6"><figure class="image is-16by9 has-shadow"> <img src="" alt="" id="post-image"></figure></div><div class="subtitle column is-5 has-text-left-desktop has-text-left-fullhd has-text-left-tablet has-text-center-mobile"><p class="subtitle is-6 is-uppercase has-text-weight-normal has-text-black-ter">Published on <b>October 21, 2021</b> by <a href="https://github.com/tom6174" target="_blank"><b class="has-text-link"><u>SKY</u></b> </a></p><p class="subtitle is-uppercase"> <i class="fas fa-tags"></i> <span class="tag is-link">python</span></p><p class="subtitle is-uppercase"><i class="fas fa-clock"></i> <b class="has-text-link"> 2 min </b>READ</p></div></div><div class="content has-text-justified-desktop has-text-justified-fullhd has-text-justified has-text-justified-tablet has-text-left-mobile"><p><p>Code snippet</p><noscript><pre># WhatATheme
+markdown: kramdown
+highlighter: rouge
+
+# URL of the Site
+url: &quot;https://tom6174.github.io&quot;
+# Base URL of the Site (i.e., Name of the Repository in which the Site is hosted)
+baseurl:
+
+# Title of the Site
+title: Thomas Learning Log
+# Description of the Site
+description: Prepare for tomorrow
+# URL of Image of the Site
+site-image: /assets/images/meta.jpg
+repository: &quot;tom6174/tom6174.github.io&quot; # GitHub username/repo-name e.g. &quot;mmistakes/minimal-mistakes&quot;
+# Keywords of the Site
+site-keywords: Site, Template, Theme
+# URL for the Image of custom Favicon
+favicon-url: 
+
+destination: ./output/
+
+# URL of the Image of Custom Hero Image (i.e., the image in the background of the very first section of the Homepage)
+heroimage: https://images.pexels.com/photos/220444/pexels-photo-220444.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=650&amp;w=940
+
+# Social Media and Contact
+# If you don&#39;t want to use any icon, you can leave them blank.
+email: thomas78.song@gmail.com
+facebook_username: Kyoung-Young Song
+twitter_username:  
+instagram_username:  
+linkedin_username: sky6174
+github_username: tom6174
+youtube_channel_id: 
+reddit_username: /
+behance_username: /
+dribbble_username: /
+spotify_username: /
+
+# Google Analytics
+google_analytics: UA-xxxxxxxx-x # replace with your GA tracking identifier
+# Google Analytics을 사용할 경우 GA tracking identifier를 입력
+
+# Disqus
+disqus: True
+disqus_shortname: xxxxxxxx
+# disqus는 온라인 댓글 시스템. 댓글 기능을 사용하기 위해
+# disqus를 이용할 것인지 여부와 만약 사용하면
+# disqus shortname을 입력 ( disqus username이 아님 )
+
+
+# Social info
+navigation: True
+# Navigation bar link를 보여줄건지 여부
+
+subscribers: True
+# subscriber 기능을 사용할건지의 여부
+# 저는 약간의 수정을 통해 subscriber 기능대신
+# lunr.js를 이용한 검색 기능으로 대체 사용했습니다.
+# 검색기능으로 대체하기 위해서
+# `_includes/subscribe-form.html` 파일의 수정이 필요합니다.
+
+
+# Name of the Author
+author-name: SKY
+# URL for the Image of the Author
+author-image: assets/images/photo2012.jpg
+# 60 Words About the Author
+author-about: Kyoung-Young Song born in South Korea, now in San Diego(Aug. 2021-July 2022)
+# URL to the Author&#39;s Profile (i.e., Github, Twitter, Stackoverflow, etc)
+author-url: https://github.com/tom6174
+
+# SASS
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Build settings
+plugins:
+  - jekyll-admin
+  - jekyll-feed
+  - jekyll-gist
+
+# Permalink
+permalink: &quot;blog/:title&quot;
+# permalink: /author/:author
+# permalink: /tag/:title
+# 각각의 post에 고정주소를 어떤 방식으로 할당할 것인지를 결정
+# 이 값을 바꾸면 작성한 포스트의 저장위치나 파일이름이 변경된다.
+
+# Compress
+compress_html:
+  clippings: all
+
+# Defaults
+defaults:
+  -
+    scope:
+      type: &#39;posts&#39;
+    values:
+      layout: post
+      post-image: &quot;&quot;
+      description: &quot;&quot;
+      tags:
+        - &quot;&quot;
+  -
+    scope:
+      type: &#39;pages&#39;
+    values:
+      layout: page
+
+# post
+future: true      
+
+# Exclude
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+# encoding: &quot;utf-8&quot;
+# markdown_ext: &quot;markdown,mkdown,mkdn,mkd,md&quot;
+
+# Travis-CI 설정입니다.
+safe: False
+lsi: False
+
+username: tom6174
+repo: GitHubPageMaker
+# username : travis-ci와 연동하는 github의 username
+# repo: travis-ci와 연동하는 github의 repository이름
+# https://github.com/&lt;username&gt;/&lt;repository&gt;
+
+</pre></noscript> <script src="https://gist.github.com/tom6174/ca7797a58d2920eaeef3557a93e0e08e.js"> </script></p></div><div class="disqus-comments" id="disqus_thread"></div></div></div></section><footer id="footer"> <!--Footer Button--><div class="container has-text-centered has-background-grey-darker" id="backtotop"> <a class="has-text-white" onclick="window.scroll(0,0)">BACK TO TOP</a></div><!--Footer Main Section--><div class="has-background-grey-darker"><div class="container columns"> <!--Name Section--><div class="column has-text-left-desktop has-text-centered-mobile"> <a href="http://localhost:4000/#about"><div class="columns"><div class="column is-one-fifth-desktop is-one-fifth-fullhd is-one-quarter-tablet"><figure class="image is-64x64"> <img class="is-rounded" src="assets/images/photo2012.jpg"></figure></div><div class="column is-marginless"><h5 class="has-text-grey-lighter">SKY</h5><div class="content has-text-grey"><p>Kyoung-Young Song born in South Korea, now in San Diego(Aug. 2021-July 2...</p></div></div></div></a></div><!--Link Section--><div class="column has-text-white"><h3>More Links</h3><li> <a href="http://localhost:4000/latex/">LaTeX</a></li><!--<li> <a target="_blank" href="http://localhost:4000/feed.xml">Subscribe via RSS</a></li>--></div><!--Blog-post Section--><div class="column has-text-white"><h3>Recent Posts</h3><li> <a href="http://localhost:4000/blog/python-test/">Python 강좌(1) - Python 기본</a></li><li> <a href="http://localhost:4000/blog/LaTeX-test/">LaTeX 강좌(1) - Python 기본</a></li><li> <a href="http://localhost:4000/blog/sample-post/">Sample Post</a></li></div></div></div><div class="has-background-black has-text-centered has-text-white" id="credits"> <i class="far fa-copyright"></i> 2021 | <a href="https://github.com/thedevslot/WhatATheme" target="_blank" rel="noopener noreferrer">WhatATheme</a> - A Theme made with <i class="fas fa-heart has-text-danger"></i> by <a href="https://www.twitter.com/thedevslot" target="_blank" rel="noopener noreferrer">TheDevsLot</a> Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a></div></footer></body><script> /** * RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS. * LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/ /* var disqus_config = function () { this.page.url = PAGE_URL; Replace PAGE_URL with your page's canonical URL variable this.page.identifier = PAGE_IDENTIFIER; Replace PAGE_IDENTIFIER with your page's unique identifier variable }; */ (function () { /* DON'T EDIT BELOW THIS LINE */ var d = document, s = d.createElement('script'); s.src = 'https://.disqus.com/embed.js'; s.setAttribute('data-timestamp', +new Date()); (d.head || d.body).appendChild(s); })(); </script></html>
