@@ -5,8 +5,8 @@ cover: False # assets/built/images/python-logo.png
 navigation: True
 title: Python 강좌(1) - Python 기본 
 date: 2021-10-21 16:40:00
-tags: 
-  - python
+tags: [python]
+permalink: "/tag/python/"
 class: post-template
 subclass: 'post tag-python'
 author: sky6174
