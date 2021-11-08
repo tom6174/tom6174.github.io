@@ -83,8 +83,8 @@ plugins:
   - jekyll-gist
 
 # Permalink
-# permalink: "/tag/:tags"
-permalink: "/blog/:categories/:title/"
+permalink: /blog/:title
+# permalink: "/blog/:categories/:title/"
 # permalink: /author/:author
 # permalink: "/tag/:title"
 # 각각의 post에 고정주소를 어떤 방식으로 할당할 것인지를 결정
