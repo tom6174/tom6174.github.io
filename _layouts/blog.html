@@ -19,7 +19,9 @@ layout: compress
         <div id="results-container"></div>
         <!--Blog Cards Section-->
         {% for post in site.posts %}
+        <!-- {% if post.categories == "latex" %} -->
             {% include blog-card.html %}
+        <!-- {% endif%} -->
         {% endfor %}
         </div>
     </section>
