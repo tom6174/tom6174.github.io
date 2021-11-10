@@ -16,12 +16,12 @@ layout: compress
                 {% include pythonpage-heading.html %}
             </div>
         </div>
-        <div id="results-container"></div>
+        <div id="results-container-python"></div>
         <!--Blog Cards Section-->
         {% for post in site.posts %}
-        <!-- {% if post.categories == 'python' %} -->
+        {% if post.tags contains 'python' %}
             {% include blog-card.html %}
-        <!-- {% endif %}     -->
+        {% endif %}    
         {% endfor %}
         </div>
     </section>

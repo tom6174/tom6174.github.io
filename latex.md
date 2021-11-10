@@ -1,5 +1,5 @@
 ---
 title: LaTeX
-layout: blog
+layout: latex
 ---
 

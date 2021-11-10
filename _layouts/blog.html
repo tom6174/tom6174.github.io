@@ -19,9 +19,9 @@ layout: compress
         <div id="results-container"></div>
         <!--Blog Cards Section-->
         {% for post in site.posts %}
-        <!-- {% if post.categories == "latex" %} -->
+        {% if post.tags contains 'latex' %}
             {% include blog-card.html %}
-        <!-- {% endif%} -->
+        {% endif %}
         {% endfor %}
         </div>
     </section>
