@@ -10,6 +10,7 @@ category: python
 class: post-template
 subclass: 'post tag-python'
 author: sky6174
+permalink: "/blog/:title"
 ---
  
 

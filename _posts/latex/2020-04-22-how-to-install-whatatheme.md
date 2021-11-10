@@ -6,6 +6,7 @@ description: This post will guide you to install WhatATheme on your Jekyll site,
   the easy steps to set up WhatATheme.
 tags: [latex]
 category: latex
+permalink: "/blog/:title"
 ---
 
 # What is WhatATheme?

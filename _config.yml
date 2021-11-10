@@ -93,7 +93,8 @@ plugins:
   - jekyll-gist
 
 # Permalink
-permalink: "/blog/:title"
+permalink: /
+# permalink: "/blog/:title"
 # permalink: "/blog/:categories/:title/"
 # permalink: /author/:author
 # permalink: "/tag/:title"

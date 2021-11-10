@@ -9,6 +9,7 @@ tags: [github]
 class: post-template
 subclass: 'post tag-GitHub'
 author: SKY
+permalink: "/blog/:title"
 ---
 
 This is an example for test.
