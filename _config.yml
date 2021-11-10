@@ -17,7 +17,17 @@ repository: "tom6174/tom6174.github.io" # GitHub username/repo-name e.g. "mmista
 # Keywords of the Site
 site-keywords: Site, Template, Theme
 # URL for the Image of custom Favicon
-favicon-url: 
+
+
+favicon: assets/images/favicon.png
+# favicon으로 사용할 image
+
+production_url: https://tom6174.github.io/
+# 최종적으로 blog가 운영될 url
+
+source_url: https://github.com/tom6174/GitHubPageMaker/
+# blogmaker(jekyll source folder)에 대한 github repository
+
 
 destination: ./output/
 
@@ -138,6 +148,6 @@ repo: GitHubPageMaker
 # repo: travis-ci와 연동하는 github의 repository이름
 # https://github.com/<username>/<repository>
 
-feed:
-  path: feed.xml
+# feed:
+#   path: feed.xml
 

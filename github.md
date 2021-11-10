@@ -1,5 +1,5 @@
 ---
-title: GitHub
-layout: blog
+title: GitHub blog
+layout: github
 ---
 
