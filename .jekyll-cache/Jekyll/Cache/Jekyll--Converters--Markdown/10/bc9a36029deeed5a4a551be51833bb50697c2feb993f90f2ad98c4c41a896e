@@ -1,0 +1,109 @@
+I"�<h6 id="source--ibrahims-blog">Source : <a href="https://medium.com/@ibrahimlawal/developing-with-multiple-github-accounts-on-one-macbook-94ff6d4ab9ca"><code class="language-plaintext highlighter-rouge">Ibrahim's Blog</code></a></h6>
+
+<blockquote>
+  <p>I am using a third, nonexistent account in the samples to show that this can be extended to more than 2 accounts.</p>
+</blockquote>
+
+<h2 id="create-ssh-keys-for-all-accounts">Create SSH keys for all accounts</h2>
+<p>First make sure your current directory is your <strong><em>.ssh</em></strong> folder.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ cd ~/.ssh 
+$ ssh-keygen -t rsa -C "my@tech-knowledge" -f "github-tom6174" 
+$ ssh-keygen -t rsa -C "my@wo.rk" -f "github-thomas6174" 
+$ ssh-keygen -t rsa -C "moi@pl.ay" -f "github-kysong" 
+</code></pre></div></div>
+
+<ul>
+  <li>The <strong>-C</strong> option is a comment to help identify the key.</li>
+  <li>The <strong>-f</strong> option specifies the file name for the key pair.</li>
+</ul>
+
+<p>You can choose how to name the key pair. I followed the recommendation here and used <strong><em>github-{GitHub username}</em></strong>.
+You’ll now have a public and private key in your ~/.ssh/ folder.</p>
+
+<h2 id="add-the-ssh-keys-to-your-ssh-agent">Add the SSH keys to your SSH-agent</h2>
+<p>Your keys are now created but won’t be used until they are added to the agent. Let’s add them.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ ssh-add -K ~/.ssh/github-ibrahimlawal
+$ ssh-add -K ~/.ssh/github-ibrahimlawal-paystack
+$ ssh-add -K ~/.ssh/github-ibraheemweynodey
+</code></pre></div></div>
+
+<p>You only need the <strong>-K</strong> option on a mac. More details on adding keys to the SSH agent here.</p>
+
+<h2 id="import-all-the-public-keys-on-the-corresponding-github-accounts">Import all the public keys on the corresponding GitHub accounts</h2>
+<p>You can quickly copy each key to the clipboard with the commands below. After each copy,</p>
+<ul>
+  <li>Visit <a href="https://github.com/settings/keys" target="_blank">here</a> while logged in to the corresponding GitHub account;</li>
+  <li>Click the ‘New SSH key’ button and paste the public key from clipboard.</li>
+</ul>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ pbcopy &lt; ~/.ssh/github-ibrahimlawal.pub
+$ pbcopy &lt; ~/.ssh/github-ibrahimlawal-paystack.pub
+$ pbcopy &lt; ~/.ssh/github-ibrahimweynodey.pub
+</code></pre></div></div>
+
+<h2 id="create-github-host-entries-for-all-accounts">Create GitHub host entries for all accounts</h2>
+<p>The <strong><em>~/.ssh/config</em></strong> file allows you specify a lot of config options for SSH. The commands below create the file if it doesn’t exist. And opens it in your default editing command… Likely TextEdit.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ open -e ~/.ssh/config
+</code></pre></div></div>
+
+<p>Add these lines to the file, each block corresponding to each account you created earlier.</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#ibrahimlawal account
+Host github.com-ibrahimlawal
+    HostName github.com
+    User git
+    IdentityFile ~/.ssh/github-ibrahimlawal
+#ibrahimlawal-paystack account
+Host github.com-ibrahimlawal-paystack
+    HostName github.com
+    User git
+    IdentityFile ~/.ssh/github-ibrahimlawal-paystack
+#ibraheemweynodey account
+Host github.com-ibraheemweynodey
+    HostName github.com
+    User git
+    IdentityFile ~/.ssh/github-ibraheemweynodey
+</code></pre></div></div>
+
+<h2 id="what-account-should-be-default">What account should be default?</h2>
+<p>Make it the global:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ git config --global user.name "ibrahimlawal"
+$ git config --global user.email "my@pers.on.al"
+</code></pre></div></div>
+<p>This will be used by default.</p>
+
+<h2 id="cloning-github-repositories-using-secondary-accounts">Cloning GitHub repositories using secondary accounts</h2>
+<p>For those that are not yet cloned,</p>
+<ul>
+  <li>Go to the root folder of the repository.</li>
+  <li>Use the format below to craft the clone command</li>
+</ul>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ git clone git@github.com-{your-username}:{the-repo-organisation-or-owner-user-name}/{the-repo-name}.git
+[e.g. $] git clone git@github.com-ibrahimweynodey:n/n.git
+</code></pre></div></div>
+
+<h2 id="updating-remote-for-repositories-already-cloned">Updating remote for repositories already cloned</h2>
+<p>Changing the user for repositories already cloned should also take only 3 steps:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ git remote set-url origin git@github.com-{your-username}:{the-repo-organisation-or-owner-user-name}/{the-repo-name}.git
+
+[e.g. $] git remote set-url origin git@github.com-ibrahimweynodey:n/n.git
+</code></pre></div></div>
+
+<h2 id="finally">Finally</h2>
+<p>From now on, to ensure that your commits and pushes from each repository on the system uses the correct GitHub user — especially in case it is not to be the default — you will have to do the following in every repository. Freshly cloned or existing before the need to have multiple accounts on a system. Just pick the correct pair. Running all will only mean all repositories will be committed with the play account!</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ git config user.email "my@pers.on.al"
+$ git config user.name "Ibrahim Lawal"
+
+$ git config user.email "my@wo.rk"
+$ git config user.name "Ibrahim Lawal"
+
+$ git config user.email "my@pl.ay"
+$ git config user.name "Ibrahim wey no dey"
+</code></pre></div></div>
+:ET

@@ -3,11 +3,12 @@ title: Developing with multiple GitHub accounts on one MacBook
 layout: post
 post-image: "https://raw.githubusercontent.com/thedevslot/WhatATheme/master/assets/images/What%20is%20Jekyll%20and%20How%20to%20use%20it.png?token=AHMQUELVG36IDSA4SZEZ5P26Z64IW"
 description: I have two github accounts now. https://github.com/tom6174 and https://github.com/thomas6174. Both are very active accounts. This post outlines how I setup my MacBook for easy git usage.
-tags: [github]
+tags: github multiple_accounts
 permalink: "/blog/:title"
 ---
 
 ###### Source : [`Ibrahim's Blog`](https://medium.com/@ibrahimlawal/developing-with-multiple-github-accounts-on-one-macbook-94ff6d4ab9ca)
+
 
 > I am using a third, nonexistent account in the samples to show that this can be extended to more than 2 accounts.
 	
@@ -16,13 +17,13 @@ First make sure your current directory is your ***.ssh*** folder.
 
 ```
 $ cd ~/.ssh 
-$ ssh-keygen -t rsa -C "my@pers.on.al" -f "github-ibrahimlawal" 
-$ ssh-keygen -t rsa -C "my@wo.rk" -f "github-ibrahimlawal-paystack" 
-$ ssh-keygen -t rsa -C "moi@pl.ay" -f "github-ibraheemweynodey" 
+$ ssh-keygen -t rsa -C "my@tech-knowledge" -f "github-tom6174" 
+$ ssh-keygen -t rsa -C "my@wo.rk" -f "github-thomas6174" 
+$ ssh-keygen -t rsa -C "moi@pl.ay" -f "github-kysong" 
 ```
 
-* The ***-C*** option is a comment to help identify the key.
-* The ***-f*** option specifies the file name for the key pair.
+* The **-C** option is a comment to help identify the key.
+* The **-f** option specifies the file name for the key pair.
 
 
 You can choose how to name the key pair. I followed the recommendation here and used ***github-{GitHub username}***.
@@ -37,7 +38,7 @@ $ ssh-add -K ~/.ssh/github-ibrahimlawal-paystack
 $ ssh-add -K ~/.ssh/github-ibraheemweynodey
 ```
 
-You only need the ***-K*** option on a mac. More details on adding keys to the SSH agent here.
+You only need the **-K** option on a mac. More details on adding keys to the SSH agent here.
 
 ## Import all the public keys on the corresponding GitHub accounts
 You can quickly copy each key to the clipboard with the commands below. After each copy,
