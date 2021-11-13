@@ -115,14 +115,13 @@ defaults:
       layout: post
       post-image: ""
       description: ""
+      future: true     
   -
     scope:
       type: 'pages'
     values:
       layout: page
 
-# post
-future: true      
 
 # Exclude
 exclude:
