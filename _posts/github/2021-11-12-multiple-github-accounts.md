@@ -15,10 +15,10 @@ Jekyll is a simple, blog-aware, static site generator perfect for personal, proj
 # Create SSH keys for all accounts
 **First make sure your current directory is your** ***.ssh*** **folder.**
 
-'$ cd ~/.ssh'
-'$ ssh-keygen -t rsa -C "my@pers.on.al" -f "github-ibrahimlawal"'
-'$ ssh-keygen -t rsa -C "my@wo.rk" -f "github-ibrahimlawal-paystack"'
-'$ ssh-keygen -t rsa -C "moi@pl.ay" -f "github-ibraheemweynodey"'
+$ cd ~/.ssh<br>
+$ ssh-keygen -t rsa -C "my@pers.on.al" -f "github-ibrahimlawal"<br>
+$ ssh-keygen -t rsa -C "my@wo.rk" -f "github-ibrahimlawal-paystack"<br>
+$ ssh-keygen -t rsa -C "moi@pl.ay" -f "github-ibraheemweynodey"<br>
 
 ### Requirements
 * [Ruby](https://www.ruby-lang.org/en/downloads/){:target="_blank"} version 2.5.0 or above, including all development headers (ruby version can be checked by running ruby -v)
