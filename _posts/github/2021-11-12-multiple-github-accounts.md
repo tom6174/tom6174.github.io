@@ -10,10 +10,16 @@ permalink: "/blog/:title"
 Jekyll is a simple, blog-aware, static site generator perfect for personal, project, or organization sites. Think of it like a file-based CMS, without all the complexity. Jekyll takes your content, renders Markdown and Liquid templates, and spits out a complete, static website ready to be served by Apache, Nginx or another web server. Jekyll is the engine behind GitHub Pages, which you can use to host sites right from your GitHub repositories and if you don't know what GitHub Pages are you can visit on click [here](https://help.github.com/en/github/working-with-github-pages/about-github-pages){:target="blank"} or [here](https://pages.github.com/){:target="blank"}
 ###### Source : [`Jekyll Docs`](https://jekyllrb.com/docs/)
 
-> ### To know more and get started with Jekyll you can click [here](https://jekyllrb.com/){:targe="_blank"}
+> #### I am using a third, nonexistent account in the samples to show that this can be extended to more than 2 accounts.
 	
-# Installation
-**Jekyll is a Ruby Gem that can be installed on most systems.**
+# Create SSH keys for all accounts
+**First make sure your current directory is your** ***.ssh*** **folder.**
+
+'$ cd ~/.ssh'
+'$ ssh-keygen -t rsa -C "my@pers.on.al" -f "github-ibrahimlawal"'
+'$ ssh-keygen -t rsa -C "my@wo.rk" -f "github-ibrahimlawal-paystack"'
+'$ ssh-keygen -t rsa -C "moi@pl.ay" -f "github-ibraheemweynodey"'
+
 ### Requirements
 * [Ruby](https://www.ruby-lang.org/en/downloads/){:target="_blank"} version 2.5.0 or above, including all development headers (ruby version can be checked by running ruby -v)
 * [Ruby Gems](https://rubygems.org/pages/download){:target="_blank"} (which you can check by running gem -v)
