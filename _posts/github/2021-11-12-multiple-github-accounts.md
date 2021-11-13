@@ -7,18 +7,19 @@ tags: [github]
 permalink: "/blog/:title"
 ---
 
-Jekyll is a simple, blog-aware, static site generator perfect for personal, project, or organization sites. Think of it like a file-based CMS, without all the complexity. Jekyll takes your content, renders Markdown and Liquid templates, and spits out a complete, static website ready to be served by Apache, Nginx or another web server. Jekyll is the engine behind GitHub Pages, which you can use to host sites right from your GitHub repositories and if you don't know what GitHub Pages are you can visit on click [here](https://help.github.com/en/github/working-with-github-pages/about-github-pages){:target="blank"} or [here](https://pages.github.com/){:target="blank"}
 ###### Source : [`Ibrahim's Blog`](https://medium.com/@ibrahimlawal/developing-with-multiple-github-accounts-on-one-macbook-94ff6d4ab9ca)
 
 > I am using a third, nonexistent account in the samples to show that this can be extended to more than 2 accounts.
 	
-# Create SSH keys for all accounts
+## Create SSH keys for all accounts
 First make sure your current directory is your ***.ssh*** folder.
 
->`$ cd ~/.ssh`<br>
->`$ ssh-keygen -t rsa -C "my@pers.on.al" -f "github-ibrahimlawal"`<br>
->`$ ssh-keygen -t rsa -C "my@wo.rk" -f "github-ibrahimlawal-paystack"`<br>
->`$ ssh-keygen -t rsa -C "moi@pl.ay" -f "github-ibraheemweynodey"`
+```
+$ cd ~/.ssh 
+$ ssh-keygen -t rsa -C "my@pers.on.al" -f "github-ibrahimlawal" 
+$ ssh-keygen -t rsa -C "my@wo.rk" -f "github-ibrahimlawal-paystack" 
+$ ssh-keygen -t rsa -C "moi@pl.ay" -f "github-ibraheemweynodey" 
+```
 
 * The ***-C*** option is a comment to help identify the key.
 * The ***-f*** option specifies the file name for the key pair.
@@ -27,28 +28,35 @@ First make sure your current directory is your ***.ssh*** folder.
 You can choose how to name the key pair. I followed the recommendation here and used ***github-{GitHub username}***.
 You’ll now have a public and private key in your ~/.ssh/ folder.
 
-# Add the SSH keys to your SSH-agent
+## Add the SSH keys to your SSH-agent
 Your keys are now created but won’t be used until they are added to the agent. Let’s add them.
 
->`$ ssh-add -K ~/.ssh/github-ibrahimlawal`<br>
->`$ ssh-add -K ~/.ssh/github-ibrahimlawal-paystack`<br>
->`$ ssh-add -K ~/.ssh/github-ibraheemweynodey`
+```
+$ ssh-add -K ~/.ssh/github-ibrahimlawal
+$ ssh-add -K ~/.ssh/github-ibrahimlawal-paystack
+$ ssh-add -K ~/.ssh/github-ibraheemweynodey
+```
 
 You only need the ***-K*** option on a mac. More details on adding keys to the SSH agent here.
 
-### Import all the public keys on the corresponding GitHub accounts
+## Import all the public keys on the corresponding GitHub accounts
 You can quickly copy each key to the clipboard with the commands below. After each copy,
 * Visit [here](https://github.com/settings/keys){:target="_blank"} while logged in to the corresponding GitHub account; 
 * Click the ‘New SSH key’ button and paste the public key from clipboard.
 
->`$ pbcopy < ~/.ssh/github-ibrahimlawal.pub`<br>
->`$ pbcopy < ~/.ssh/github-ibrahimlawal-paystack.pub`<br>
->`$ pbcopy < ~/.ssh/github-ibrahimweynodey.pub`
+```
+$ pbcopy < ~/.ssh/github-ibrahimlawal.pub
+$ pbcopy < ~/.ssh/github-ibrahimlawal-paystack.pub
+$ pbcopy < ~/.ssh/github-ibrahimweynodey.pub
+```
 
 
-### Create GitHub host entries for all accounts
+## Create GitHub host entries for all accounts
 The ***~/.ssh/config*** file allows you specify a lot of config options for SSH. The commands below create the file if it doesn’t exist. And opens it in your default editing command… Likely TextEdit.
-> `$ open -e ~/.ssh/config`
+
+```
+$ open -e ~/.ssh/config
+```
 
 Add these lines to the file, each block corresponding to each account you created earlier.
 ```
@@ -68,16 +76,46 @@ Host github.com-ibraheemweynodey
     User git
     IdentityFile ~/.ssh/github-ibraheemweynodey
 ```    
-### Changing into the Directory
-**We have to go inside the directory:**<br>
-> # `cd my-site`
 
-Again, `my-site` is just a random name which is customizable.
+## What account should be default?
+Make it the global:
 
-### Building the site and making it available on a local server
-> # `bundle exec jekyll serve`
 
-### Browsing your Jekyll site
-> # Browse to [`http://localhost:4000/`](http://localhost:4000/){:target="_blank"}
+```
+$ git config --global user.name "ibrahimlawal"
+$ git config --global user.email "my@pers.on.al"
+```
+This will be used by default.
 
-###### On encountering any problem while building and serving your Jekyll site you can consider visiting to the [troubleshooting](https://jekyllrb.com/docs/troubleshooting/#configuration-problems){:target="_blank"} page
+## Cloning GitHub repositories using secondary accounts
+For those that are not yet cloned,
+* Go to the root folder of the repository.
+* Use the format below to craft the clone command
+
+```
+$ git clone git@github.com-{your-username}:{the-repo-organisation-or-owner-user-name}/{the-repo-name}.git
+[e.g. $] git clone git@github.com-ibrahimweynodey:n/n.git
+```
+
+## Updating remote for repositories already cloned
+Changing the user for repositories already cloned should also take only 3 steps:
+
+```
+$ git remote set-url origin git@github.com-{your-username}:{the-repo-organisation-or-owner-user-name}/{the-repo-name}.git
+
+[e.g. $] git remote set-url origin git@github.com-ibrahimweynodey:n/n.git
+```
+
+## Finally
+From now on, to ensure that your commits and pushes from each repository on the system uses the correct GitHub user — especially in case it is not to be the default — you will have to do the following in every repository. Freshly cloned or existing before the need to have multiple accounts on a system. Just pick the correct pair. Running all will only mean all repositories will be committed with the play account!
+
+```
+$ git config user.email "my@pers.on.al"
+$ git config user.name "Ibrahim Lawal"
+
+$ git config user.email "my@wo.rk"
+$ git config user.name "Ibrahim Lawal"
+
+$ git config user.email "my@pl.ay"
+$ git config user.name "Ibrahim wey no dey"
+```
