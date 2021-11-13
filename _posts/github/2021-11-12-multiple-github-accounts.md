@@ -13,7 +13,7 @@ Jekyll is a simple, blog-aware, static site generator perfect for personal, proj
 > I am using a third, nonexistent account in the samples to show that this can be extended to more than 2 accounts.
 	
 # Create SSH keys for all accounts
-First make sure your current directory is your** ***.ssh*** folder.
+First make sure your current directory is your ***.ssh*** folder.
 
 `$ cd ~/.ssh`<br>
 `$ ssh-keygen -t rsa -C "my@pers.on.al" -f "github-ibrahimlawal"`<br>
@@ -30,8 +30,8 @@ You’ll now have a public and private key in your ~/.ssh/ folder.
 # Add the SSH keys to your SSH-agent
 Your keys are now created but won’t be used until they are added to the agent. Let’s add them.
 
->`$ ssh-add -K ~/.ssh/github-ibrahimlawal`
->`$ ssh-add -K ~/.ssh/github-ibrahimlawal-paystack`
+>`$ ssh-add -K ~/.ssh/github-ibrahimlawal`<br>
+>`$ ssh-add -K ~/.ssh/github-ibrahimlawal-paystack`<br>
 >`$ ssh-add -K ~/.ssh/github-ibraheemweynodey`
 
 You only need the -K option on a mac. More details on adding keys to the SSH agent here.
