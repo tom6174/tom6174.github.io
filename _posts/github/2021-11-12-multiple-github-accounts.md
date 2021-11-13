@@ -15,13 +15,13 @@ Jekyll is a simple, blog-aware, static site generator perfect for personal, proj
 # Create SSH keys for all accounts
 First make sure your current directory is your ***.ssh*** folder.
 
-`$ cd ~/.ssh`<br>
-`$ ssh-keygen -t rsa -C "my@pers.on.al" -f "github-ibrahimlawal"`<br>
-`$ ssh-keygen -t rsa -C "my@wo.rk" -f "github-ibrahimlawal-paystack"`<br>
-`$ ssh-keygen -t rsa -C "moi@pl.ay" -f "github-ibraheemweynodey"`<br>
+>`$ cd ~/.ssh`<br>
+>`$ ssh-keygen -t rsa -C "my@pers.on.al" -f "github-ibrahimlawal"`<br>
+>`$ ssh-keygen -t rsa -C "my@wo.rk" -f "github-ibrahimlawal-paystack"`<br>
+>`$ ssh-keygen -t rsa -C "moi@pl.ay" -f "github-ibraheemweynodey"`
 
-* The -C option is a comment to help identify the key.
-* The -f option specifies the file name for the key pair.
+* The ***-C*** option is a comment to help identify the key.
+* The ***-f*** option specifies the file name for the key pair.
 
 
 You can choose how to name the key pair. I followed the recommendation here and used ***github-{GitHub username}***.
@@ -34,21 +34,40 @@ Your keys are now created but won’t be used until they are added to the agent.
 >`$ ssh-add -K ~/.ssh/github-ibrahimlawal-paystack`<br>
 >`$ ssh-add -K ~/.ssh/github-ibraheemweynodey`
 
-You only need the -K option on a mac. More details on adding keys to the SSH agent here.
+You only need the ***-K*** option on a mac. More details on adding keys to the SSH agent here.
 
-### After Installing the Requirements you can follow these guides:
-**For detailed install instructions have a look at the guide for your operating system.**
-* [macOS](https://jekyllrb.com/docs/installation/macos/){:target="_blank"}
-* [Ubuntu](https://jekyllrb.com/docs/installation/ubuntu/){:target="_blank"}
-* [Other Linux Distros](https://jekyllrb.com/docs/installation/other-linux/){:target="_blank"}
-* [Windows](https://jekyllrb.com/docs/installation/windows/){:target="_blank"}
+### Import all the public keys on the corresponding GitHub accounts
+You can quickly copy each key to the clipboard with the commands below. After each copy,
+* Visit [here](https://github.com/settings/keys){:target="_blank"} while logged in to the corresponding GitHub account; 
+* Click the ‘New SSH key’ button and paste the public key from clipboard.
 
-### Creating a new Jekyll site
-**We can create a new Jekyll site just by a simple command:**<br>
-> # `jekyll new my-site`
+>`$ pbcopy < ~/.ssh/github-ibrahimlawal.pub`<br>
+>`$ pbcopy < ~/.ssh/github-ibrahimlawal-paystack.pub`<br>
+>`$ pbcopy < ~/.ssh/github-ibrahimweynodey.pub`
 
-Jekyll will create a new directory named as `my-site` which is customizable (i.e., you can change the name from `my-site` to anything you want for example `jekyll new brutus`).
 
+### Create GitHub host entries for all accounts
+The ***~/.ssh/config*** file allows you specify a lot of config options for SSH. The commands below create the file if it doesn’t exist. And opens it in your default editing command… Likely TextEdit.
+> `$ open -e ~/.ssh/config`
+
+Add these lines to the file, each block corresponding to each account you created earlier.
+```
+#ibrahimlawal account
+Host github.com-ibrahimlawal
+    HostName github.com
+    User git
+    IdentityFile ~/.ssh/github-ibrahimlawal
+#ibrahimlawal-paystack account
+Host github.com-ibrahimlawal-paystack
+    HostName github.com
+    User git
+    IdentityFile ~/.ssh/github-ibrahimlawal-paystack
+#ibraheemweynodey account
+Host github.com-ibraheemweynodey
+    HostName github.com
+    User git
+    IdentityFile ~/.ssh/github-ibraheemweynodey
+```    
 ### Changing into the Directory
 **We have to go inside the directory:**<br>
 > # `cd my-site`
