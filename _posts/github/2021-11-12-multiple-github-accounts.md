@@ -18,8 +18,8 @@ First make sure your current directory is your ***.ssh*** folder.
 ```
 $ cd ~/.ssh 
 $ ssh-keygen -t rsa -C "my@tech-knowledge" -f "github-tom6174" 
-$ ssh-keygen -t rsa -C "my@wo.rk" -f "github-thomas6174" 
-$ ssh-keygen -t rsa -C "moi@pl.ay" -f "github-kysong" 
+$ ssh-keygen -t rsa -C "my@family-log" -f "github-thomas6174" 
+$ ssh-keygen -t rsa -C "moi@uc-" -f "github-ucsky6174" 
 ```
 
 * The **-C** option is a comment to help identify the key.
@@ -41,6 +41,7 @@ $ ssh-add -K ~/.ssh/github-ibraheemweynodey
 You only need the **-K** option on a mac. More details on adding keys to the SSH agent here.
 
 ## Import all the public keys on the corresponding GitHub accounts
+
 You can quickly copy each key to the clipboard with the commands below. After each copy,
 * Visit [here](https://github.com/settings/keys){:target="_blank"} while logged in to the corresponding GitHub account; 
 * Click the ‘New SSH key’ button and paste the public key from clipboard.
@@ -80,7 +81,6 @@ Host github.com-ibraheemweynodey
 
 ## What account should be default?
 Make it the global:
-
 
 ```
 $ git config --global user.name "ibrahimlawal"
