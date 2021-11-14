@@ -1,4 +1,4 @@
-I"Š<h6 id="source--ibrahims-blog">Source : <a href="https://medium.com/@ibrahimlawal/developing-with-multiple-github-accounts-on-one-macbook-94ff6d4ab9ca"><code class="language-plaintext highlighter-rouge">Ibrahim's Blog</code></a></h6>
+I"‘<h6 id="source--ibrahims-blog">Source : <a href="https://medium.com/@ibrahimlawal/developing-with-multiple-github-accounts-on-one-macbook-94ff6d4ab9ca"><code class="language-plaintext highlighter-rouge">Ibrahim's Blog</code></a></h6>
 
 <blockquote>
   <p>I am using a third, nonexistent account in the samples to show that this can be extended to more than 2 accounts.</p>
@@ -9,8 +9,8 @@
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ cd ~/.ssh 
 $ ssh-keygen -t rsa -C "my@tech-knowledge" -f "github-tom6174" 
-$ ssh-keygen -t rsa -C "my@wo.rk" -f "github-thomas6174" 
-$ ssh-keygen -t rsa -C "moi@pl.ay" -f "github-kysong" 
+$ ssh-keygen -t rsa -C "my@family-log" -f "github-thomas6174" 
+$ ssh-keygen -t rsa -C "moi@uc-" -f "github-ucsky6174" 
 </code></pre></div></div>
 
 <ul>
@@ -32,6 +32,7 @@ $ ssh-add -K ~/.ssh/github-ibraheemweynodey
 <p>You only need the <strong>-K</strong> option on a mac. More details on adding keys to the SSH agent here.</p>
 
 <h2 id="import-all-the-public-keys-on-the-corresponding-github-accounts">Import all the public keys on the corresponding GitHub accounts</h2>
+
 <p>You can quickly copy each key to the clipboard with the commands below. After each copy,</p>
 <ul>
   <li>Visit <a href="https://github.com/settings/keys" target="_blank">here</a> while logged in to the corresponding GitHub account;</li>
