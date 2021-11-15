@@ -3,8 +3,8 @@ layout: post
 current: post
 cover: False # assets/built/images/python-logo.png
 navigation: True
-title: Python - Python 설치
-date: 2021-10-20 16:40:00
+title: Python - Python 기본 
+date: 2021-10-25 16:40:00
 tags: [python]
 category: python
 class: post-template
