@@ -1,0 +1,94 @@
+I"5<nav class="navbar is-black is-fixed-top" role="navigation" aria-label="main navigation" id="navbar">
+    <div class="container">
+
+        <!-- logo or branding image on left side -->
+        <div class="navbar-brand">
+            <a class="navbar-item" href="http://localhost:4000/">
+                <strong>Thomas Tech-Knowledge</strong>
+            </a>
+            <div class="navbar-burger" data-target="navbar-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+
+        <!-- children of navbar-menu must be navbar-start and/or navbar-end -->
+        <div class="navbar-menu has-background-black" id="navbar-menu">
+            <!-- navbar items | left side -->
+            <!-- <div class="navbar-start">
+            </div> -->
+            <!-- navbar items | right side -->
+            <div class="navbar-end">
+                <a class="navbar-item " href="http://localhost:4000/">home</a>
+                <a class="navbar-item" href="http://localhost:4000/#about">about</a>
+                <a class="navbar-item " href="http://localhost:4000/latex">LaTeX</a>
+                <a class="navbar-item " href="http://localhost:4000/python">Python</a>
+                <a class="navbar-item " href="http://localhost:4000/github">GitHub</a>
+                <div class="navbar-item has-dropdown is-hoverable">
+    <a class="navbar-link">
+        more
+    </a>
+    <div class="navbar-dropdown has-background-black is-left">
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <a href="http://localhost:4000/project" class="navbar-item has-text-grey-light ">
+            Projects
+        </a>
+        
+        
+        
+        
+        
+        
+        
+        <a href="http://localhost:4000/test-page" class="navbar-item has-text-grey-light ">
+            Test Page
+        </a>
+        
+        
+        
+        <!-- <hr class="navbar-divider">
+    <a class="navbar-item">
+      Report an issue
+    </a> -->
+    </div>
+</div>
+            </div>
+
+        </div>
+    </div>
+</nav>
+<!-- Bulma Navbar JS -->
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        /* Get all "navbar-burger" elements */
+        var $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+        /* Check if there are any navbar burgers */
+        if ($navbarBurgers.length > 0) {
+            /* Add a click event on each of them */
+            $navbarBurgers.forEach(function ($el) {
+                $el.addEventListener('click', function () {
+                    /* Get the target from the "data-target" attribute */
+                    var target = $el.dataset.target;
+                    var $target = document.getElementById(target);
+                    /* Toggle the class on both the "navbar-burger" and the "navbar-menu" */
+                    $el.classList.toggle('is-active');
+                    $target.classList.toggle('is-active');
+                });
+            });
+        }
+    });
+</script>
+
+<p>This is an example for test.</p>
+:ET
