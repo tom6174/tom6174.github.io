@@ -6,6 +6,7 @@ description: A sample post to show how the content will look and how will differ
   headlines, quotes and codes will be represented.
 tags: [python]
 category: python
+author: SKY
 permalink: "/blog/:title"
 ---
 

@@ -3,13 +3,13 @@ layout: post
 current: post
 cover: False # assets/built/images/python-logo.png
 navigation: True
-title: Python - Python 기본 
+title: Python 기본 
 date: 2021-10-25 16:40:00
-tags: [python]
+tags: python matplot
 category: python
 class: post-template
 subclass: 'post tag-python'
-author: sky6174
+author: SKY
 permalink: "/blog/:title"
 ---
  
