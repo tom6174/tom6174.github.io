@@ -553,13 +553,13 @@ a.navbar-item.is-active {
     }
 }
 
-li {
+ul {
     list-style-type: circle;
     margin-top: 0px;
     margin-bottom: 3px;
 }
 
-li li {
+ul ul {
     list-style-type: square;
 }
 
