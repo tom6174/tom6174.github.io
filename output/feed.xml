@@ -1,6 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-11-14T22:52:37-08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Thomas Tech-Knowledge</title><subtitle>Prepare for tomorrow</subtitle><entry><title type="html">Second project</title><link href="http://localhost:4000/project/second-project" rel="alternate" type="text/html" title="Second project" /><published>2021-11-12T08:40:00-08:00</published><updated>2021-11-12T08:40:00-08:00</updated><id>http://localhost:4000/project/second-project</id><content type="html" xml:base="http://localhost:4000/project/second-project">&lt;h1 id=&quot;test&quot;&gt;Test&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-08-09T22:59:09+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Thomas Tech-Knowledge</title><subtitle>Prepare for tomorrow</subtitle><entry><title type="html">Fifth project</title><link href="http://localhost:4000/project/fifth-project" rel="alternate" type="text/html" title="Fifth project" /><published>2021-11-21T01:40:00+09:00</published><updated>2021-11-21T01:40:00+09:00</updated><id>http://localhost:4000/project/fifth-project</id><content type="html" xml:base="http://localhost:4000/project/fifth-project">&lt;h1 id=&quot;test&quot;&gt;Test&lt;/h1&gt;
 
-&lt;h2 id=&quot;abcd&quot;&gt;abcd&lt;/h2&gt;</content><author><name>Thomas Song</name></author><summary type="html">Test</summary></entry><entry><title type="html">Developing with multiple GitHub accounts on one MacBook</title><link href="http://localhost:4000/blog/multiple-github-accounts" rel="alternate" type="text/html" title="Developing with multiple GitHub accounts on one MacBook" /><published>2021-11-12T00:00:00-08:00</published><updated>2021-11-12T00:00:00-08:00</updated><id>http://localhost:4000/blog/multiple-github-accounts</id><content type="html" xml:base="http://localhost:4000/blog/multiple-github-accounts">&lt;h6 id=&quot;source--ibrahims-blog&quot;&gt;Source : &lt;a href=&quot;https://medium.com/@ibrahimlawal/developing-with-multiple-github-accounts-on-one-macbook-94ff6d4ab9ca&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Ibrahim's Blog&lt;/code&gt;&lt;/a&gt;&lt;/h6&gt;
+&lt;h2 id=&quot;abcd&quot;&gt;abcd&lt;/h2&gt;</content><author><name>Thomas Song</name></author><summary type="html">Test</summary></entry><entry><title type="html">Fourth project</title><link href="http://localhost:4000/project/fourth-project" rel="alternate" type="text/html" title="Fourth project" /><published>2021-11-18T01:40:00+09:00</published><updated>2021-11-18T01:40:00+09:00</updated><id>http://localhost:4000/project/fourth-project</id><content type="html" xml:base="http://localhost:4000/project/fourth-project">&lt;h1 id=&quot;test&quot;&gt;Test&lt;/h1&gt;
+
+&lt;h2 id=&quot;abcd&quot;&gt;abcd&lt;/h2&gt;</content><author><name>Thomas Song</name></author><summary type="html">Test</summary></entry><entry><title type="html">Third project</title><link href="http://localhost:4000/project/third-project" rel="alternate" type="text/html" title="Third project" /><published>2021-11-16T01:40:00+09:00</published><updated>2021-11-16T01:40:00+09:00</updated><id>http://localhost:4000/project/third-project</id><content type="html" xml:base="http://localhost:4000/project/third-project">&lt;h1 id=&quot;test&quot;&gt;Test&lt;/h1&gt;
+
+&lt;h2 id=&quot;abcd&quot;&gt;abcd&lt;/h2&gt;</content><author><name>Thomas Song</name></author><summary type="html">Test</summary></entry><entry><title type="html">Second project</title><link href="http://localhost:4000/project/second-project" rel="alternate" type="text/html" title="Second project" /><published>2021-11-13T01:40:00+09:00</published><updated>2021-11-13T01:40:00+09:00</updated><id>http://localhost:4000/project/second-project</id><content type="html" xml:base="http://localhost:4000/project/second-project">&lt;h1 id=&quot;test&quot;&gt;Test&lt;/h1&gt;
+
+&lt;h2 id=&quot;abcd&quot;&gt;abcd&lt;/h2&gt;</content><author><name>Thomas Song</name></author><summary type="html">Test</summary></entry><entry><title type="html">How to Start LaTeX</title><link href="http://localhost:4000/blog/Beamer-Tutorial" rel="alternate" type="text/html" title="How to Start LaTeX" /><published>2021-11-12T01:40:00+09:00</published><updated>2021-11-12T01:40:00+09:00</updated><id>http://localhost:4000/blog/Beamer-Tutorial</id><content type="html" xml:base="http://localhost:4000/blog/Beamer-Tutorial">&lt;p&gt;This is an example for test.&lt;/p&gt;</content><author><name>Thomas Song</name></author><category term="latex" /><category term="beamer" /><summary type="html">This is an example for test.</summary></entry><entry><title type="html">How to Start LaTeX</title><link href="http://localhost:4000/blog/LaTeX-Start" rel="alternate" type="text/html" title="How to Start LaTeX" /><published>2021-11-12T01:40:00+09:00</published><updated>2021-11-12T01:40:00+09:00</updated><id>http://localhost:4000/blog/LaTeX-Start</id><content type="html" xml:base="http://localhost:4000/blog/LaTeX-Start">&lt;p&gt;This is an example for test.&lt;/p&gt;</content><author><name>Thomas Song</name></author><category term="latex" /><summary type="html">This is an example for test.</summary></entry><entry><title type="html">Developing with multiple GitHub accounts on one MacBook</title><link href="http://localhost:4000/blog/multiple-github-accounts" rel="alternate" type="text/html" title="Developing with multiple GitHub accounts on one MacBook" /><published>2021-11-12T00:00:00+09:00</published><updated>2021-11-12T00:00:00+09:00</updated><id>http://localhost:4000/blog/multiple-github-accounts</id><content type="html" xml:base="http://localhost:4000/blog/multiple-github-accounts">&lt;h6 id=&quot;source--ibrahims-blog&quot;&gt;Source : &lt;a href=&quot;https://medium.com/@ibrahimlawal/developing-with-multiple-github-accounts-on-one-macbook-94ff6d4ab9ca&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Ibrahim's Blog&lt;/code&gt;&lt;/a&gt;&lt;/h6&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;I am using a third, nonexistent account in the samples to show that this can be extended to more than 2 accounts.&lt;/p&gt;
@@ -108,153 +114,9 @@ $ git config user.name &quot;Ibrahim Lawal&quot;
 
 $ git config user.email &quot;my@pl.ay&quot;
 $ git config user.name &quot;Ibrahim wey no dey&quot;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><category term="github" /><category term="multiple_accounts" /><summary type="html">Source : Ibrahim's Blog I am using a third, nonexistent account in the samples to show that this can be extended to more than 2 accounts. Create SSH keys for all accounts First make sure your current directory is your .ssh folder. $ cd ~/.ssh $ ssh-keygen -t rsa -C &quot;my@tech-knowledge&quot; -f &quot;github-tom6174&quot; $ ssh-keygen -t rsa -C &quot;my@family-log&quot; -f &quot;github-thomas6174&quot; $ ssh-keygen -t rsa -C &quot;moi@uc-&quot; -f &quot;github-ucsky6174&quot; The -C option is a comment to help identify the key. The -f option specifies the file name for the key pair. You can choose how to name the key pair. I followed the recommendation here and used github-{GitHub username}. You’ll now have a public and private key in your ~/.ssh/ folder. Add the SSH keys to your SSH-agent Your keys are now created but won’t be used until they are added to the agent. Let’s add them. $ ssh-add -K ~/.ssh/github-ibrahimlawal $ ssh-add -K ~/.ssh/github-ibrahimlawal-paystack $ ssh-add -K ~/.ssh/github-ibraheemweynodey You only need the -K option on a mac. More details on adding keys to the SSH agent here. Import all the public keys on the corresponding GitHub accounts You can quickly copy each key to the clipboard with the commands below. After each copy, Visit here while logged in to the corresponding GitHub account; Click the ‘New SSH key’ button and paste the public key from clipboard. $ pbcopy &amp;lt; ~/.ssh/github-ibrahimlawal.pub $ pbcopy &amp;lt; ~/.ssh/github-ibrahimlawal-paystack.pub $ pbcopy &amp;lt; ~/.ssh/github-ibrahimweynodey.pub Create GitHub host entries for all accounts The ~/.ssh/config file allows you specify a lot of config options for SSH. The commands below create the file if it doesn’t exist. And opens it in your default editing command… Likely TextEdit. $ open -e ~/.ssh/config Add these lines to the file, each block corresponding to each account you created earlier. #ibrahimlawal account Host github.com-ibrahimlawal HostName github.com User git IdentityFile ~/.ssh/github-ibrahimlawal #ibrahimlawal-paystack account Host github.com-ibrahimlawal-paystack HostName github.com User git IdentityFile ~/.ssh/github-ibrahimlawal-paystack #ibraheemweynodey account Host github.com-ibraheemweynodey HostName github.com User git IdentityFile ~/.ssh/github-ibraheemweynodey What account should be default? Make it the global: $ git config --global user.name &quot;ibrahimlawal&quot; $ git config --global user.email &quot;my@pers.on.al&quot; This will be used by default. Cloning GitHub repositories using secondary accounts For those that are not yet cloned, Go to the root folder of the repository. Use the format below to craft the clone command $ git clone git@github.com-{your-username}:{the-repo-organisation-or-owner-user-name}/{the-repo-name}.git [e.g. $] git clone git@github.com-ibrahimweynodey:n/n.git Updating remote for repositories already cloned Changing the user for repositories already cloned should also take only 3 steps: $ git remote set-url origin git@github.com-{your-username}:{the-repo-organisation-or-owner-user-name}/{the-repo-name}.git [e.g. $] git remote set-url origin git@github.com-ibrahimweynodey:n/n.git Finally From now on, to ensure that your commits and pushes from each repository on the system uses the correct GitHub user — especially in case it is not to be the default — you will have to do the following in every repository. Freshly cloned or existing before the need to have multiple accounts on a system. Just pick the correct pair. Running all will only mean all repositories will be committed with the play account! $ git config user.email &quot;my@pers.on.al&quot; $ git config user.name &quot;Ibrahim Lawal&quot; $ git config user.email &quot;my@wo.rk&quot; $ git config user.name &quot;Ibrahim Lawal&quot; $ git config user.email &quot;my@pl.ay&quot; $ git config user.name &quot;Ibrahim wey no dey&quot;</summary></entry><entry><title type="html">How to Start LaTeX</title><link href="http://localhost:4000/blog/Beamer-Tutorial" rel="alternate" type="text/html" title="How to Start LaTeX" /><published>2021-11-11T08:40:00-08:00</published><updated>2021-11-11T08:40:00-08:00</updated><id>http://localhost:4000/blog/Beamer-Tutorial</id><content type="html" xml:base="http://localhost:4000/blog/Beamer-Tutorial">&lt;p&gt;This is an example for test.&lt;/p&gt;</content><author><name>Thomas Song</name></author><category term="latex" /><category term="beamer" /><summary type="html">This is an example for test.</summary></entry><entry><title type="html">How to Start LaTeX</title><link href="http://localhost:4000/blog/LaTeX-Start" rel="alternate" type="text/html" title="How to Start LaTeX" /><published>2021-11-11T08:40:00-08:00</published><updated>2021-11-11T08:40:00-08:00</updated><id>http://localhost:4000/blog/LaTeX-Start</id><content type="html" xml:base="http://localhost:4000/blog/LaTeX-Start">&lt;p&gt;This is an example for test.&lt;/p&gt;</content><author><name>Thomas Song</name></author><category term="latex" /><summary type="html">This is an example for test.</summary></entry><entry><title type="html">First project</title><link href="http://localhost:4000/project/first-project" rel="alternate" type="text/html" title="First project" /><published>2021-11-10T08:40:00-08:00</published><updated>2021-11-10T08:40:00-08:00</updated><id>http://localhost:4000/project/first-project</id><content type="html" xml:base="http://localhost:4000/project/first-project">&lt;h1 id=&quot;test&quot;&gt;Test&lt;/h1&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><category term="github" /><category term="multiple_accounts" /><summary type="html">Source : Ibrahim's Blog I am using a third, nonexistent account in the samples to show that this can be extended to more than 2 accounts. Create SSH keys for all accounts First make sure your current directory is your .ssh folder. $ cd ~/.ssh $ ssh-keygen -t rsa -C &quot;my@tech-knowledge&quot; -f &quot;github-tom6174&quot; $ ssh-keygen -t rsa -C &quot;my@family-log&quot; -f &quot;github-thomas6174&quot; $ ssh-keygen -t rsa -C &quot;moi@uc-&quot; -f &quot;github-ucsky6174&quot; The -C option is a comment to help identify the key. The -f option specifies the file name for the key pair. You can choose how to name the key pair. I followed the recommendation here and used github-{GitHub username}. You’ll now have a public and private key in your ~/.ssh/ folder. Add the SSH keys to your SSH-agent Your keys are now created but won’t be used until they are added to the agent. Let’s add them. $ ssh-add -K ~/.ssh/github-ibrahimlawal $ ssh-add -K ~/.ssh/github-ibrahimlawal-paystack $ ssh-add -K ~/.ssh/github-ibraheemweynodey You only need the -K option on a mac. More details on adding keys to the SSH agent here. Import all the public keys on the corresponding GitHub accounts You can quickly copy each key to the clipboard with the commands below. After each copy, Visit here while logged in to the corresponding GitHub account; Click the ‘New SSH key’ button and paste the public key from clipboard. $ pbcopy &amp;lt; ~/.ssh/github-ibrahimlawal.pub $ pbcopy &amp;lt; ~/.ssh/github-ibrahimlawal-paystack.pub $ pbcopy &amp;lt; ~/.ssh/github-ibrahimweynodey.pub Create GitHub host entries for all accounts The ~/.ssh/config file allows you specify a lot of config options for SSH. The commands below create the file if it doesn’t exist. And opens it in your default editing command… Likely TextEdit. $ open -e ~/.ssh/config Add these lines to the file, each block corresponding to each account you created earlier. #ibrahimlawal account Host github.com-ibrahimlawal HostName github.com User git IdentityFile ~/.ssh/github-ibrahimlawal #ibrahimlawal-paystack account Host github.com-ibrahimlawal-paystack HostName github.com User git IdentityFile ~/.ssh/github-ibrahimlawal-paystack #ibraheemweynodey account Host github.com-ibraheemweynodey HostName github.com User git IdentityFile ~/.ssh/github-ibraheemweynodey What account should be default? Make it the global: $ git config --global user.name &quot;ibrahimlawal&quot; $ git config --global user.email &quot;my@pers.on.al&quot; This will be used by default. Cloning GitHub repositories using secondary accounts For those that are not yet cloned, Go to the root folder of the repository. Use the format below to craft the clone command $ git clone git@github.com-{your-username}:{the-repo-organisation-or-owner-user-name}/{the-repo-name}.git [e.g. $] git clone git@github.com-ibrahimweynodey:n/n.git Updating remote for repositories already cloned Changing the user for repositories already cloned should also take only 3 steps: $ git remote set-url origin git@github.com-{your-username}:{the-repo-organisation-or-owner-user-name}/{the-repo-name}.git [e.g. $] git remote set-url origin git@github.com-ibrahimweynodey:n/n.git Finally From now on, to ensure that your commits and pushes from each repository on the system uses the correct GitHub user — especially in case it is not to be the default — you will have to do the following in every repository. Freshly cloned or existing before the need to have multiple accounts on a system. Just pick the correct pair. Running all will only mean all repositories will be committed with the play account! $ git config user.email &quot;my@pers.on.al&quot; $ git config user.name &quot;Ibrahim Lawal&quot; $ git config user.email &quot;my@wo.rk&quot; $ git config user.name &quot;Ibrahim Lawal&quot; $ git config user.email &quot;my@pl.ay&quot; $ git config user.name &quot;Ibrahim wey no dey&quot;</summary></entry><entry><title type="html">First project</title><link href="http://localhost:4000/project/first-project" rel="alternate" type="text/html" title="First project" /><published>2021-11-11T01:40:00+09:00</published><updated>2021-11-11T01:40:00+09:00</updated><id>http://localhost:4000/project/first-project</id><content type="html" xml:base="http://localhost:4000/project/first-project">&lt;h1 id=&quot;test&quot;&gt;Test&lt;/h1&gt;
 
-&lt;h2 id=&quot;abcd&quot;&gt;abcd&lt;/h2&gt;</content><author><name>Thomas Song</name></author><summary type="html">Test</summary></entry><entry><title type="html">Python - Python 기본</title><link href="http://localhost:4000/blog/python-basic" rel="alternate" type="text/html" title="Python - Python 기본" /><published>2021-10-25T09:40:00-07:00</published><updated>2021-10-25T09:40:00-07:00</updated><id>http://localhost:4000/blog/python-basic</id><content type="html" xml:base="http://localhost:4000/blog/python-basic">&lt;p&gt;Code snippet&lt;/p&gt;
-
-&lt;noscript&gt;&lt;pre&gt;# WhatATheme
-markdown: kramdown
-highlighter: rouge
-
-# URL of the Site
-url: &amp;quot;https://tom6174.github.io&amp;quot;
-# Base URL of the Site (i.e., Name of the Repository in which the Site is hosted)
-baseurl:
-
-# Title of the Site
-title: Thomas Learning Log
-# Description of the Site
-description: Prepare for tomorrow
-# URL of Image of the Site
-site-image: /assets/images/meta.jpg
-repository: &amp;quot;tom6174/tom6174.github.io&amp;quot; # GitHub username/repo-name e.g. &amp;quot;mmistakes/minimal-mistakes&amp;quot;
-# Keywords of the Site
-site-keywords: Site, Template, Theme
-# URL for the Image of custom Favicon
-favicon-url: 
-
-destination: ./output/
-
-# URL of the Image of Custom Hero Image (i.e., the image in the background of the very first section of the Homepage)
-heroimage: https://images.pexels.com/photos/220444/pexels-photo-220444.jpeg?auto=compress&amp;amp;cs=tinysrgb&amp;amp;dpr=2&amp;amp;h=650&amp;amp;w=940
-
-# Social Media and Contact
-# If you don&amp;#39;t want to use any icon, you can leave them blank.
-email: thomas78.song@gmail.com
-facebook_username: Kyoung-Young Song
-twitter_username:  
-instagram_username:  
-linkedin_username: sky6174
-github_username: tom6174
-youtube_channel_id: 
-reddit_username: /
-behance_username: /
-dribbble_username: /
-spotify_username: /
-
-# Google Analytics
-google_analytics: UA-xxxxxxxx-x # replace with your GA tracking identifier
-# Google Analytics을 사용할 경우 GA tracking identifier를 입력
-
-# Disqus
-disqus: True
-disqus_shortname: xxxxxxxx
-# disqus는 온라인 댓글 시스템. 댓글 기능을 사용하기 위해
-# disqus를 이용할 것인지 여부와 만약 사용하면
-# disqus shortname을 입력 ( disqus username이 아님 )
-
-
-# Social info
-navigation: True
-# Navigation bar link를 보여줄건지 여부
-
-subscribers: True
-# subscriber 기능을 사용할건지의 여부
-# 저는 약간의 수정을 통해 subscriber 기능대신
-# lunr.js를 이용한 검색 기능으로 대체 사용했습니다.
-# 검색기능으로 대체하기 위해서
-# `_includes/subscribe-form.html` 파일의 수정이 필요합니다.
-
-
-# Name of the Author
-author-name: SKY
-# URL for the Image of the Author
-author-image: assets/images/photo2012.jpg
-# 60 Words About the Author
-author-about: Kyoung-Young Song born in South Korea, now in San Diego(Aug. 2021-July 2022)
-# URL to the Author&amp;#39;s Profile (i.e., Github, Twitter, Stackoverflow, etc)
-author-url: https://github.com/tom6174
-
-# SASS
-sass:
-  sass_dir: _sass
-  style: compressed
-
-# Build settings
-plugins:
-  - jekyll-admin
-  - jekyll-feed
-  - jekyll-gist
-
-# Permalink
-permalink: &amp;quot;blog/:title&amp;quot;
-# permalink: /author/:author
-# permalink: /tag/:title
-# 각각의 post에 고정주소를 어떤 방식으로 할당할 것인지를 결정
-# 이 값을 바꾸면 작성한 포스트의 저장위치나 파일이름이 변경된다.
-
-# Compress
-compress_html:
-  clippings: all
-
-# Defaults
-defaults:
-  -
-    scope:
-      type: &amp;#39;posts&amp;#39;
-    values:
-      layout: post
-      post-image: &amp;quot;&amp;quot;
-      description: &amp;quot;&amp;quot;
-      tags:
-        - &amp;quot;&amp;quot;
-  -
-    scope:
-      type: &amp;#39;pages&amp;#39;
-    values:
-      layout: page
-
-# post
-future: true      
-
-# Exclude
-exclude:
-  - .sass-cache/
-  - .jekyll-cache/
-  - gemfiles/
-  - Gemfile
-  - Gemfile.lock
-  - node_modules/
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
-
-# encoding: &amp;quot;utf-8&amp;quot;
-# markdown_ext: &amp;quot;markdown,mkdown,mkdn,mkd,md&amp;quot;
-
-# Travis-CI 설정입니다.
-safe: False
-lsi: False
-
-username: tom6174
-repo: GitHubPageMaker
-# username : travis-ci와 연동하는 github의 username
-# repo: travis-ci와 연동하는 github의 repository이름
-# https://github.com/&amp;lt;username&amp;gt;/&amp;lt;repository&amp;gt;
-
-&lt;/pre&gt;&lt;/noscript&gt;
-&lt;script src=&quot;https://gist.github.com/tom6174/ca7797a58d2920eaeef3557a93e0e08e.js&quot;&gt; &lt;/script&gt;</content><author><name>sky6174</name></author><category term="python" /><category term="python" /><summary type="html">Code snippet</summary></entry><entry><title type="html">Python - Python 설치</title><link href="http://localhost:4000/blog/python-test" rel="alternate" type="text/html" title="Python - Python 설치" /><published>2021-10-20T09:40:00-07:00</published><updated>2021-10-20T09:40:00-07:00</updated><id>http://localhost:4000/blog/python-test</id><content type="html" xml:base="http://localhost:4000/blog/python-test">&lt;p&gt;Code snippet&lt;/p&gt;
+&lt;h2 id=&quot;abcd&quot;&gt;abcd&lt;/h2&gt;</content><author><name>Thomas Song</name></author><summary type="html">Test</summary></entry><entry><title type="html">Python 기본</title><link href="http://localhost:4000/blog/python-basic" rel="alternate" type="text/html" title="Python 기본" /><published>2021-10-26T01:40:00+09:00</published><updated>2021-10-26T01:40:00+09:00</updated><id>http://localhost:4000/blog/python-basic</id><content type="html" xml:base="http://localhost:4000/blog/python-basic">&lt;p&gt;Code snippet&lt;/p&gt;
 
 &lt;noscript&gt;&lt;pre&gt;# WhatATheme
 markdown: kramdown
@@ -398,152 +260,148 @@ repo: GitHubPageMaker
 # https://github.com/&amp;lt;username&amp;gt;/&amp;lt;repository&amp;gt;
 
 &lt;/pre&gt;&lt;/noscript&gt;
-&lt;script src=&quot;https://gist.github.com/tom6174/ca7797a58d2920eaeef3557a93e0e08e.js&quot;&gt; &lt;/script&gt;</content><author><name>sky6174</name></author><category term="python" /><category term="python" /><summary type="html">Code snippet</summary></entry><entry><title type="html">GitHub 공부(1) - Git 기본</title><link href="http://localhost:4000/blog/GitHub-test" rel="alternate" type="text/html" title="GitHub 공부(1) - Git 기본" /><published>2020-10-20T09:40:00-07:00</published><updated>2020-10-20T09:40:00-07:00</updated><id>http://localhost:4000/blog/GitHub-test</id><content type="html" xml:base="http://localhost:4000/blog/GitHub-test">&lt;p&gt;This is an example for test.&lt;/p&gt;</content><author><name>Thomas Song</name></author><category term="github" /><summary type="html">This is an example for test.</summary></entry><entry><title type="html">Sample Post</title><link href="http://localhost:4000/blog/sample-post" rel="alternate" type="text/html" title="Sample Post" /><published>2020-04-24T00:00:00-07:00</published><updated>2020-04-24T00:00:00-07:00</updated><id>http://localhost:4000/blog/sample-post</id><content type="html" xml:base="http://localhost:4000/blog/sample-post">&lt;p&gt;This post will show you how the content will look like in the post pages and how the headlines, quotes and quotes will be represented. Jekyll is mainly used to write simple markdown and after that it renders out a static pages, so you need to know the basics of writing markdown for that.
-For more information about writing markdown you can checkout the following markdown cheatsheets:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://guides.github.com/features/mastering-markdown/&quot;&gt;Mastering Markdown&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.markdownguide.org/cheat-sheet/&quot;&gt;Markdown Guide&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.github.com/gfm/&quot;&gt;GitHub Flavored Markdown Spec&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;script src=&quot;https://gist.github.com/tom6174/ca7797a58d2920eaeef3557a93e0e08e.js&quot;&gt; &lt;/script&gt;</content><author><name>Thomas Song</name></author><category term="python" /><category term="python" /><category term="matplot" /><summary type="html">Code snippet</summary></entry><entry><title type="html">Python 설치</title><link href="http://localhost:4000/blog/python-test" rel="alternate" type="text/html" title="Python 설치" /><published>2021-10-21T01:40:00+09:00</published><updated>2021-10-21T01:40:00+09:00</updated><id>http://localhost:4000/blog/python-test</id><content type="html" xml:base="http://localhost:4000/blog/python-test">&lt;p&gt;Code snippet&lt;/p&gt;
 
-&lt;hr /&gt;
+&lt;noscript&gt;&lt;pre&gt;# WhatATheme
+markdown: kramdown
+highlighter: rouge
 
-&lt;h1 id=&quot;this-is-the-h1-text&quot;&gt;This is the h1 text&lt;/h1&gt;
-&lt;h2 id=&quot;this-is-the-h2-text&quot;&gt;This is the h2 text&lt;/h2&gt;
-&lt;h3 id=&quot;this-is-the-h3-text&quot;&gt;This is the h3 text&lt;/h3&gt;
-&lt;h4 id=&quot;this-is-the-h4-text&quot;&gt;This is the h4 text&lt;/h4&gt;
-&lt;h5 id=&quot;this-is-the-h5-text&quot;&gt;This is the h5 text&lt;/h5&gt;
-&lt;h6 id=&quot;this-is-the-h6-text&quot;&gt;This is the h6 text&lt;/h6&gt;
+# URL of the Site
+url: &amp;quot;https://tom6174.github.io&amp;quot;
+# Base URL of the Site (i.e., Name of the Repository in which the Site is hosted)
+baseurl:
 
-&lt;p&gt;&lt;strong&gt;Bold Text in the post will look like:&lt;/strong&gt;&lt;br /&gt;
-&lt;strong&gt;This text is Bold&lt;/strong&gt;&lt;/p&gt;
+# Title of the Site
+title: Thomas Learning Log
+# Description of the Site
+description: Prepare for tomorrow
+# URL of Image of the Site
+site-image: /assets/images/meta.jpg
+repository: &amp;quot;tom6174/tom6174.github.io&amp;quot; # GitHub username/repo-name e.g. &amp;quot;mmistakes/minimal-mistakes&amp;quot;
+# Keywords of the Site
+site-keywords: Site, Template, Theme
+# URL for the Image of custom Favicon
+favicon-url: 
 
-&lt;p&gt;&lt;strong&gt;Italic Text in the post will look like:&lt;/strong&gt;&lt;br /&gt;
-&lt;em&gt;This text is Italic&lt;/em&gt;&lt;/p&gt;
+destination: ./output/
 
-&lt;blockquote&gt;
-  &lt;p&gt;Quotes on your post will look like this&lt;/p&gt;
-&lt;/blockquote&gt;
+# URL of the Image of Custom Hero Image (i.e., the image in the background of the very first section of the Homepage)
+heroimage: https://images.pexels.com/photos/220444/pexels-photo-220444.jpeg?auto=compress&amp;amp;cs=tinysrgb&amp;amp;dpr=2&amp;amp;h=650&amp;amp;w=940
 
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Codes on your post will look like this&lt;/code&gt;&lt;/p&gt;
+# Social Media and Contact
+# If you don&amp;#39;t want to use any icon, you can leave them blank.
+email: thomas78.song@gmail.com
+facebook_username: Kyoung-Young Song
+twitter_username:  
+instagram_username:  
+linkedin_username: sky6174
+github_username: tom6174
+youtube_channel_id: 
+reddit_username: /
+behance_username: /
+dribbble_username: /
+spotify_username: /
 
-&lt;p&gt;&lt;strong&gt;Link in the post will look like:&lt;/strong&gt;&lt;br /&gt;
-&lt;a href=&quot;#&quot;&gt;This is a link&lt;/a&gt;&lt;/p&gt;
+# Google Analytics
+google_analytics: UA-xxxxxxxx-x # replace with your GA tracking identifier
+# Google Analytics을 사용할 경우 GA tracking identifier를 입력
 
-&lt;p&gt;&lt;strong&gt;Bullet list in the post will look like:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Item 1&lt;/li&gt;
-  &lt;li&gt;Item 2&lt;/li&gt;
-  &lt;li&gt;Item 3&lt;/li&gt;
-  &lt;li&gt;Item 4&lt;/li&gt;
-  &lt;li&gt;Item 5&lt;/li&gt;
-&lt;/ul&gt;
+# Disqus
+disqus: True
+disqus_shortname: xxxxxxxx
+# disqus는 온라인 댓글 시스템. 댓글 기능을 사용하기 위해
+# disqus를 이용할 것인지 여부와 만약 사용하면
+# disqus shortname을 입력 ( disqus username이 아님 )
 
-&lt;p&gt;&lt;strong&gt;Number list in the post will look like:&lt;/strong&gt;&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;Item 1&lt;/li&gt;
-  &lt;li&gt;Item 2&lt;/li&gt;
-  &lt;li&gt;Item 3&lt;/li&gt;
-  &lt;li&gt;Item 4&lt;/li&gt;
-  &lt;li&gt;Item 5&lt;/li&gt;
-&lt;/ol&gt;
 
-&lt;p&gt;&lt;strong&gt;Images in the post will look like:&lt;/strong&gt;&lt;br /&gt;
-&lt;img src=&quot;/WhatATheme/assets/images/1280x720%20Placeholder.png&quot; alt=&quot;Test Image&quot; /&gt;&lt;/p&gt;
+# Social info
+navigation: True
+# Navigation bar link를 보여줄건지 여부
 
-&lt;p&gt;&lt;strong&gt;Normal text in the post will look like&lt;/strong&gt;&lt;br /&gt;
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris id finibus nisl. Etiam in hendrerit est. Nulla non erat ac lectus interdum lobortis. Vestibulum at mi ex. Mauris nisl mi, venenatis et feugiat nec, finibus porttitor velit. Suspendisse tincidunt lobortis leo, quis tristique tellus iaculis quis. Donec eleifend pulvinar gravida. Proin non lorem eros. Donec sit amet finibus ex, eget vestibulum nunc. Ut ut enim id purus porttitor tristique. Vivamus tincidunt eleifend hendrerit. Proin metus felis, ultrices vel dui in, porta dapibus dui. Sed sagittis ex vitae dui tristique dignissim. Cras vel leo ipsum.&lt;/p&gt;
+subscribers: True
+# subscriber 기능을 사용할건지의 여부
+# 저는 약간의 수정을 통해 subscriber 기능대신
+# lunr.js를 이용한 검색 기능으로 대체 사용했습니다.
+# 검색기능으로 대체하기 위해서
+# `_includes/subscribe-form.html` 파일의 수정이 필요합니다.
 
-&lt;p&gt;Aenean ac neque et risus mattis accumsan. Sed ac tellus molestie, lacinia ante sit amet, convallis felis. Maecenas aliquet lectus nec euismod auctor. Donec finibus pellentesque tortor, ac efficitur metus suscipit non. Proin diam orci, blandit quis malesuada ac, efficitur a nisl. Mauris eleifend consequat blandit. Sed egestas quam et orci gravida, non euismod metus scelerisque. Curabitur venenatis pellentesque erat commodo pharetra. Fusce id ante nec ipsum fringilla auctor. In justo quam, feugiat placerat eleifend dapibus, luctus et quam. Fusce facilisis erat ut odio convallis viverra et id mauris. Sed vehicula tempus consectetur. Aliquam pharetra, purus non egestas tristique, tellus massa fringilla est, id sagittis tellus urna non mauris. Suspendisse fringilla, velit nec blandit facilisis, ligula ante imperdiet est, et placerat magna sem quis tortor.&lt;/p&gt;
 
-&lt;p&gt;Vestibulum vitae fermentum velit, rhoncus egestas orci. Nulla at purus ut orci posuere vulputate. In eget leo diam. In congue in diam nec elementum. Suspendisse fringilla ante nulla, eu tristique orci ultrices eget. Aenean non lorem tellus. Vestibulum tempor metus sit amet tellus feugiat, sit amet consequat lacus ultricies.&lt;/p&gt;
+# Name of the Author
+author-name: SKY
+# URL for the Image of the Author
+author-image: assets/images/photo2012.jpg
+# 60 Words About the Author
+author-about: Kyoung-Young Song born in South Korea, now in San Diego(Aug. 2021-July 2022)
+# URL to the Author&amp;#39;s Profile (i.e., Github, Twitter, Stackoverflow, etc)
+author-url: https://github.com/tom6174
 
-&lt;p&gt;Donec imperdiet, lectus eget congue cursus, dolor enim finibus risus, ut molestie lorem tellus non tortor. Donec quam nibh, molestie in dapibus et, efficitur non tortor. Morbi orci tellus, mollis vel mi vitae, auctor lobortis erat. Ut gravida velit eget ligula lacinia, id rhoncus tellus gravida. Maecenas laoreet rutrum consequat. Suspendisse sed nibh dui. Curabitur dictum euismod mollis. Sed egestas libero libero, eu accumsan augue placerat non. Nunc id condimentum orci. Mauris vitae sollicitudin quam.&lt;/p&gt;
+# SASS
+sass:
+  sass_dir: _sass
+  style: compressed
 
-&lt;p&gt;&lt;strong&gt;Giphy Gifs will look like:&lt;/strong&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;iframe src=&quot;https://giphy.com/embed/ZqlvCTNHpqrio&quot; width=&quot;480&quot; height=&quot;259&quot; frameborder=&quot;0&quot; class=&quot;giphy-embed&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-&lt;p&gt;&lt;a href=&quot;https://giphy.com/gifs/laughing-despicable-me-minions-ZqlvCTNHpqrio&quot;&gt;via GIPHY&lt;/a&gt;&lt;/p&gt;
+# Build settings
+plugins:
+  - jekyll-admin
+  - jekyll-feed
+  - jekyll-gist
 
-&lt;p&gt;&lt;strong&gt;YouTUbe Videos will look like:&lt;/strong&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/jTPXwbDtIpA&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;</content><author><name></name></author><category term="python" /><category term="python" /><summary type="html">This post will show you how the content will look like in the post pages and how the headlines, quotes and quotes will be represented. Jekyll is mainly used to write simple markdown and after that it renders out a static pages, so you need to know the basics of writing markdown for that. For more information about writing markdown you can checkout the following markdown cheatsheets: Mastering Markdown Markdown Guide GitHub Flavored Markdown Spec This is the h1 text This is the h2 text This is the h3 text This is the h4 text This is the h5 text This is the h6 text Bold Text in the post will look like: This text is Bold Italic Text in the post will look like: This text is Italic Quotes on your post will look like this Codes on your post will look like this Link in the post will look like: This is a link Bullet list in the post will look like: Item 1 Item 2 Item 3 Item 4 Item 5 Number list in the post will look like: Item 1 Item 2 Item 3 Item 4 Item 5 Images in the post will look like: Normal text in the post will look like Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris id finibus nisl. Etiam in hendrerit est. Nulla non erat ac lectus interdum lobortis. Vestibulum at mi ex. Mauris nisl mi, venenatis et feugiat nec, finibus porttitor velit. Suspendisse tincidunt lobortis leo, quis tristique tellus iaculis quis. Donec eleifend pulvinar gravida. Proin non lorem eros. Donec sit amet finibus ex, eget vestibulum nunc. Ut ut enim id purus porttitor tristique. Vivamus tincidunt eleifend hendrerit. Proin metus felis, ultrices vel dui in, porta dapibus dui. Sed sagittis ex vitae dui tristique dignissim. Cras vel leo ipsum. Aenean ac neque et risus mattis accumsan. Sed ac tellus molestie, lacinia ante sit amet, convallis felis. Maecenas aliquet lectus nec euismod auctor. Donec finibus pellentesque tortor, ac efficitur metus suscipit non. Proin diam orci, blandit quis malesuada ac, efficitur a nisl. Mauris eleifend consequat blandit. Sed egestas quam et orci gravida, non euismod metus scelerisque. Curabitur venenatis pellentesque erat commodo pharetra. Fusce id ante nec ipsum fringilla auctor. In justo quam, feugiat placerat eleifend dapibus, luctus et quam. Fusce facilisis erat ut odio convallis viverra et id mauris. Sed vehicula tempus consectetur. Aliquam pharetra, purus non egestas tristique, tellus massa fringilla est, id sagittis tellus urna non mauris. Suspendisse fringilla, velit nec blandit facilisis, ligula ante imperdiet est, et placerat magna sem quis tortor. Vestibulum vitae fermentum velit, rhoncus egestas orci. Nulla at purus ut orci posuere vulputate. In eget leo diam. In congue in diam nec elementum. Suspendisse fringilla ante nulla, eu tristique orci ultrices eget. Aenean non lorem tellus. Vestibulum tempor metus sit amet tellus feugiat, sit amet consequat lacus ultricies. Donec imperdiet, lectus eget congue cursus, dolor enim finibus risus, ut molestie lorem tellus non tortor. Donec quam nibh, molestie in dapibus et, efficitur non tortor. Morbi orci tellus, mollis vel mi vitae, auctor lobortis erat. Ut gravida velit eget ligula lacinia, id rhoncus tellus gravida. Maecenas laoreet rutrum consequat. Suspendisse sed nibh dui. Curabitur dictum euismod mollis. Sed egestas libero libero, eu accumsan augue placerat non. Nunc id condimentum orci. Mauris vitae sollicitudin quam. Giphy Gifs will look like: via GIPHY YouTUbe Videos will look like:</summary></entry><entry><title type="html">How to Install and use WhatATheme?</title><link href="http://localhost:4000/blog/how-to-install-whatatheme" rel="alternate" type="text/html" title="How to Install and use WhatATheme?" /><published>2020-04-22T00:00:00-07:00</published><updated>2020-04-22T00:00:00-07:00</updated><id>http://localhost:4000/blog/how-to-install-whatatheme</id><content type="html" xml:base="http://localhost:4000/blog/how-to-install-whatatheme">&lt;h1 id=&quot;what-is-whatatheme&quot;&gt;What is WhatATheme?&lt;/h1&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;You’ll find this post in your &lt;strong&gt;&lt;em&gt;_posts&lt;/em&gt;&lt;/strong&gt; directory. Go ahead and edit it and re-build the site to see your changes. &amp;gt;You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;bundle exec jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
-&lt;/blockquote&gt;
+# Permalink
+permalink: &amp;quot;blog/:title&amp;quot;
+# permalink: /author/:author
+# permalink: /tag/:title
+# 각각의 post에 고정주소를 어떤 방식으로 할당할 것인지를 결정
+# 이 값을 바꾸면 작성한 포스트의 저장위치나 파일이름이 변경된다.
 
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/VfPa2c9kwhQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+# Compress
+compress_html:
+  clippings: all
 
-&lt;hr /&gt;
+# Defaults
+defaults:
+  -
+    scope:
+      type: &amp;#39;posts&amp;#39;
+    values:
+      layout: post
+      post-image: &amp;quot;&amp;quot;
+      description: &amp;quot;&amp;quot;
+      tags:
+        - &amp;quot;&amp;quot;
+  -
+    scope:
+      type: &amp;#39;pages&amp;#39;
+    values:
+      layout: page
 
-&lt;p&gt;&lt;strong&gt;WhatATheme&lt;/strong&gt; is a customizable Jekyll Portfolio theme which supports blogging. You can use this theme in order to create an elegant, fully responsive portfolio which includes&lt;/p&gt;
+# post
+future: true      
 
-&lt;h3 id=&quot;home-page--&quot;&gt;Home Page -&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;A Hero section - A section where you can outsource an image which will work as the background for the particular section; it also will include your name and a tagline which can be easily manipulated via the _config.yml file.&lt;/li&gt;
-  &lt;li&gt;An About section - A section where you can include your image and a 60 word paragraph which again you can easily manipulate using the _config.yml file.&lt;/li&gt;
-  &lt;li&gt;A Contact section - A section where you can include 3 direct ways to contact&lt;br /&gt;
-&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Ping on Messenger&lt;/code&gt;&lt;br /&gt;
-&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Send an Email&lt;/code&gt;&lt;br /&gt;
-&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Tweet on Twitter&lt;/code&gt;&lt;br /&gt;
-The contact section will also include 10 different social media buttons for your audience to follow.&lt;br /&gt;
-&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Facebook&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Twitter&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Instagram&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;LinkedIn&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;GitHub&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YouTube&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Reddit&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Behance&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Dribbble&lt;/code&gt; &amp;amp; &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Spotify&lt;/code&gt;.&lt;/li&gt;
-&lt;/ul&gt;
+# Exclude
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
 
-&lt;h3 id=&quot;blog--&quot;&gt;Blog -&lt;/h3&gt;
-&lt;p&gt;The blog includes a horizontal card list where the latest articles are fetched from the _posts folder automatically in top-down format. It also includes an instant search box which matches your query from the title, description &amp;amp; content of your post and shows the result as soon as you type.&lt;br /&gt;
-The blog card includes&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Post Title&lt;/li&gt;
-  &lt;li&gt;300 words from the content of the post&lt;/li&gt;
-  &lt;li&gt;The publish date&lt;/li&gt;
-  &lt;li&gt;The time which will be required to read the post.&lt;/li&gt;
-&lt;/ul&gt;
+# encoding: &amp;quot;utf-8&amp;quot;
+# markdown_ext: &amp;quot;markdown,mkdown,mkdn,mkd,md&amp;quot;
 
-&lt;h3 id=&quot;projects--&quot;&gt;Projects -&lt;/h3&gt;
-&lt;p&gt;The Projects page will include all the projects from the &lt;strong&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;projects.yml&lt;/code&gt;&lt;/strong&gt; file which is present in the _data folder.&lt;br /&gt;
-Projects will be showcased in a card-list format where each card will contain&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;An image related to the project&lt;/li&gt;
-  &lt;li&gt;A Project Title&lt;/li&gt;
-  &lt;li&gt;A Project Description of about 80 words&lt;/li&gt;
-&lt;/ul&gt;
+# Travis-CI 설정입니다.
+safe: False
+lsi: False
 
-&lt;h3 id=&quot;footer--&quot;&gt;Footer -&lt;/h3&gt;
-&lt;p&gt;The footer includes&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;A small about the author widget which show the same &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Author Image&lt;/code&gt; as mentioned in the about section of the Home page which includes &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Name of the Author&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Around 75 words about the author&lt;/code&gt;.&lt;/li&gt;
-  &lt;li&gt;A more link widget which includes a link to any extra page that you’ve created and a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Subscribe via RSS&lt;/code&gt; link.&lt;/li&gt;
-  &lt;li&gt;A Recent posts widget which will include latest 3 posts.&lt;/li&gt;
-&lt;/ul&gt;
+username: tom6174
+repo: GitHubPageMaker
+# username : travis-ci와 연동하는 github의 username
+# repo: travis-ci와 연동하는 github의 repository이름
+# https://github.com/&amp;lt;username&amp;gt;/&amp;lt;repository&amp;gt;
 
-&lt;h4 id=&quot;extra-features--&quot;&gt;Extra Features -&lt;/h4&gt;
-&lt;p&gt;WhatATheme comes pre installed with&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;HTML Compressor&lt;/strong&gt; - It’ll compress all the pages by removing any extra space or blank lines.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Google Analytics&lt;/strong&gt; - A web analytics service offered by Google that tracks and reports website traffic. For more information &lt;a href=&quot;https://analytics.google.com&quot; target=&quot;blank&quot;&gt;click here&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Disqus&lt;/strong&gt; - A worldwide blog comment hosting service for web sites and online communities that use a networked platform. For more information about Disqus &lt;a href=&quot;https://help.disqus.com/en/articles/1717053-what-is-disqus&quot; target=&quot;blank&quot;&gt;click here&lt;/a&gt;&lt;/p&gt;
-
-    &lt;p&gt;##### For more information about WhatATheme &lt;a href=&quot;https://github.com/thedevslot/WhatATheme/blob/gh-pages/README.md&quot; target=&quot;blank&quot;&gt;click here&lt;/a&gt;.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&quot;installation&quot;&gt;Installation&lt;/h1&gt;
-&lt;h3 id=&quot;step-1---setting-up-whatatheme&quot;&gt;Step 1 - Setting up WhatATheme&lt;/h3&gt;
-&lt;blockquote&gt;
-  &lt;ul&gt;
-    &lt;li&gt;Fork the &lt;a href=&quot;https://github.com/thedevslot/WhatATheme/tree/master&quot; target=&quot;blankl&quot;&gt;repository&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;Go to repository settings and set Github Pages source as master.&lt;/li&gt;
-    &lt;li&gt;Your new site should be ready at &lt;a href=&quot;#&quot; target=&quot;blank&quot;&gt;https://username.github.io/WhatATheme/&lt;/a&gt;&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;h3 id=&quot;step-2---making-changes-via-_configyml&quot;&gt;Step 2 - Making changes via &lt;strong&gt;_config.yml&lt;/strong&gt;&lt;/h3&gt;
-&lt;blockquote&gt;
-  &lt;ul&gt;
-    &lt;li&gt;Open _config.yml file&lt;/li&gt;
-    &lt;li&gt;Fill the available details accordingly&lt;/li&gt;
-    &lt;li&gt;Commit the changes&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/blockquote&gt;</content><author><name></name></author><category term="latex" /><category term="latex" /><summary type="html">What is WhatATheme? You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. &amp;gt;You can rebuild the site in many different ways, but the most common way is to run bundle exec jekyll serve, which launches a web server and auto-regenerates your site when a file is updated. WhatATheme is a customizable Jekyll Portfolio theme which supports blogging. You can use this theme in order to create an elegant, fully responsive portfolio which includes Home Page - A Hero section - A section where you can outsource an image which will work as the background for the particular section; it also will include your name and a tagline which can be easily manipulated via the _config.yml file. An About section - A section where you can include your image and a 60 word paragraph which again you can easily manipulate using the _config.yml file. A Contact section - A section where you can include 3 direct ways to contact Ping on Messenger Send an Email Tweet on Twitter The contact section will also include 10 different social media buttons for your audience to follow. Facebook, Twitter, Instagram, LinkedIn, GitHub, YouTube, Reddit, Behance, Dribbble &amp;amp; Spotify. Blog - The blog includes a horizontal card list where the latest articles are fetched from the _posts folder automatically in top-down format. It also includes an instant search box which matches your query from the title, description &amp;amp; content of your post and shows the result as soon as you type. The blog card includes Post Title 300 words from the content of the post The publish date The time which will be required to read the post. Projects - The Projects page will include all the projects from the projects.yml file which is present in the _data folder. Projects will be showcased in a card-list format where each card will contain An image related to the project A Project Title A Project Description of about 80 words Footer - The footer includes A small about the author widget which show the same Author Image as mentioned in the about section of the Home page which includes Name of the Author, Around 75 words about the author. A more link widget which includes a link to any extra page that you’ve created and a Subscribe via RSS link. A Recent posts widget which will include latest 3 posts. Extra Features - WhatATheme comes pre installed with HTML Compressor - It’ll compress all the pages by removing any extra space or blank lines. Google Analytics - A web analytics service offered by Google that tracks and reports website traffic. For more information click here. Disqus - A worldwide blog comment hosting service for web sites and online communities that use a networked platform. For more information about Disqus click here ##### For more information about WhatATheme click here. Installation Step 1 - Setting up WhatATheme Fork the repository Go to repository settings and set Github Pages source as master. Your new site should be ready at https://username.github.io/WhatATheme/ Step 2 - Making changes via _config.yml Open _config.yml file Fill the available details accordingly Commit the changes</summary></entry></feed>
+&lt;/pre&gt;&lt;/noscript&gt;
+&lt;script src=&quot;https://gist.github.com/tom6174/ca7797a58d2920eaeef3557a93e0e08e.js&quot;&gt; &lt;/script&gt;</content><author><name>Thomas Song</name></author><category term="python" /><category term="python" /><summary type="html">Code snippet</summary></entry></feed>
