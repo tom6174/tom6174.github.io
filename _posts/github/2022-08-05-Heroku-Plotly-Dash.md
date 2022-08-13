@@ -4,8 +4,7 @@ layout: post
 post-image:  ../assets/images/heroku.png
 date: 2022-08-05 16:40:00
 description: By default, Dash apps run on localhost and run with app.run_server(). However, there is an easy way to deploy your Dash app to a cloud environment. Dash uses Flask as its web framework and can be deployed anywhere Flask can be deployed. Options include Digital Ocean, PythonAnywhere, GCP, AWS, Azure, and more.
-category: github
-tags: GitHub Heroku Dash Plotly
+tags: github heroku dash plotly
 permalink: "/blog/:title"
 ---
 
@@ -16,9 +15,9 @@ permalink: "/blog/:title"
 
 # 1단계. Heroku 및 Git 설치
 
-1. Heroku 계정을 엽니 다. 무료 계정은 [https://signup.heroku.com/dc](https://signup.heroku.com/dc)에서 사용할 수 있습니다 . 지침에 따라 사용자 이름과 암호를 얻습니다. 를 적어!
+1. Heroku 계정을 엽니다. 무료 계정은 [https://signup.heroku.com/dc](https://signup.heroku.com/dc)에서 사용할 수 있습니다. 지침에 따라 사용자 이름과 암호를 얻습니다.
 2. Heroku 계정에 로그인합니다. [https://dashboard.heroku.com/apps](https://dashboard.heroku.com/apps)로 이동합니다.
-3. Python을 클릭하십시오. 다음 화면에서 설정을 선택합니다. Heroku CLI(명령 줄 인터페이스)를 다운로드하는 옵션이 나타납니다. 드롭 다운 목록에서 운영 체제를 선택하고 지침에 따라 유틸리티를 설치합니다. Git도 설치할 수있는 옵션이 있어야합니다.
+3. Python을 클릭하십시오. 다음 화면에서 설정을 선택합니다. Heroku CLI(명령 줄 인터페이스)를 다운로드하는 옵션이 나타납니다. 드롭다운 목록에서 운영 체제를 선택하고 지침에 따라 유틸리티를 설치합니다. Git도 설치할 수있는 옵션이 있어야 합니다.
 4. git이 Heroku CLI와 함께 설치되지 않은 경우 [https://git-scm.com/downloads](https://git-scm.com/downloads)에서 직접 다운로드하고 운영 체제의 지침을 따를 수 있습니다.
 
 	
@@ -28,7 +27,7 @@ permalink: "/blog/:title"
 $ pip install virtualenv
 ```
  
-Virtualenv를 사용하면 Python 및 앱에 필요한 모든 종속성을 포함하는 앱의 가상 환경을 만들 수 있습니다. 여기에는 특정 버전의 플롯, 대시 및 작동 할 것으로 알고있는 기타 라이브러리가 포함됩니다. 새로운 업데이트를 사용할 수있게되면 먼저 테스트 할 기회가있을 때까지 앱이 중단되지 않습니다!
+Virtualenv를 사용하면 Python 및 앱에 필요한 모든 종속성을 포함하는 앱의 가상 환경을 만들 수 있습니다. 여기에는 특정 버전의 플롯, 대시 및 작동 할 것으로 알고있는 기타 라이브러리가 포함됩니다. 새로운 업데이트를 사용할 수 있게되면 먼저 테스트할 기회가있을 때까지 앱이 중단되지 않습니다!
 
 
 # 3단계. 개발 폴더를 만들기
