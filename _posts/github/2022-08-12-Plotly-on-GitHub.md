@@ -23,3 +23,4 @@ permalink: "/blog/:title"
 ```
 {% include figure.html %}
 ```
+{% include figure.html %}
