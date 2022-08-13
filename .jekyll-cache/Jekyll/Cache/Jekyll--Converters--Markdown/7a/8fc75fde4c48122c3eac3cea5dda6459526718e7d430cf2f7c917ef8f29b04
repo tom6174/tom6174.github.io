@@ -1,0 +1,25 @@
+I"�<h6 id="source--dr-starsons-blog">Source : <a href="https://www.wenyanet.com/opensource/ko/6076863cf33f6b32cd7fba06.html"><code class="language-plaintext highlighter-rouge">Dr. Starson's Blog</code></a></h6>
+
+<blockquote>
+  <p>dash와 plotly로 구동되는 heroku에 app 배포하기</p>
+</blockquote>
+
+<h1 id="1-heroku-및">1. Heroku 및</h1>
+
+<h2 id="1-heroku-sign">1. Heroku sign</h2>
+
+<h1 id="2-install-heroku-cli">2. Install Heroku CLI</h1>
+
+<h1 id="3-create-app-project-folder-on-your-ide">3. Create App project folder on your IDE</h1>
+
+<h1 id="4-install-necessary-app-project-libraries">4. Install necessary App project libraries</h1>
+
+<h1 id="5-create-necessary-files-for-heroku-server">5. Create necessary files for Heroku server</h1>
+
+<h1 id="6-deploy-app-to-heroku">6. Deploy App to Heroku</h1>
+
+<h1 id="7-redeploy-app-to-heroku">7. Redeploy App to Heroku</h1>
+
+<h1 id="8-include-dashboad-into-jekyll-blog">8. Include Dashboad into Jekyll Blog</h1>
+
+:ET
