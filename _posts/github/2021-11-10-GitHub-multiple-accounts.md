@@ -2,7 +2,9 @@
 title: Developing with multiple GitHub accounts on a MacBook
 layout: post
 post-image: ../assets/images/github_multiple_users.png
+date: 2021-11-10 00:40:00
 description: I have two github accounts now. https://github.com/tom6174 and https://github.com/thomas6174. Both are very active accounts. This post outlines how I setup my MacBook for easy git usage.
+category: github
 tags: github multiple_accounts
 permalink: "/blog/:title"
 ---

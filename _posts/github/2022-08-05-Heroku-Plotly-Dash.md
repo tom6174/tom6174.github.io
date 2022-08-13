@@ -2,9 +2,10 @@
 title: What is Heroku? How to use it?
 layout: post
 post-image:  ../assets/images/heroku.png
-description: 기본적으로 Dash 앱은 localhost에서 실행되며 app.run_server()로 실행됩니다. 그러나 Dash 앱을 클라우드 환경에 쉽게 배포 할 수있는 방법이 있습니다. Dash는 Flask를 웹 프레임 워크로 사용하며 Flask를 배포 할 수있는 모든 곳에 배포 할 수 있습니다. 옵션에는 Digital Ocean, PythonAnywhere, GCP, AWS, Azure 등이 포함됩니다.
-tags: GitHub Heroku Dash Plotly
+date: 2022-08-05 16:40:00
+description: By default, Dash apps run on localhost and run with app.run_server(). However, there is an easy way to deploy your Dash app to a cloud environment. Dash uses Flask as its web framework and can be deployed anywhere Flask can be deployed. Options include Digital Ocean, PythonAnywhere, GCP, AWS, Azure, and more.
 category: github
+tags: GitHub Heroku Dash Plotly
 permalink: "/blog/:title"
 ---
 

@@ -13,15 +13,10 @@ permalink: "/blog/:title"
 
 
 
-## 1. Generate figure.html
+## 1. Generate figure.html in _includes folder
 
 <script src="https://gist.github.com/UC1973/7667a9c00b6f6f2e4edbd0b48e07eff9.js"></script>
 
-## 2. Upload html file in _includes folder
-
-## 3. Include html file in a markdown file
-```
-{% include figure.html %}
-```
+## 2. Include html file in a markdown file
 
 {% include figure.html %}
