@@ -3,7 +3,7 @@ title: Developing with multiple GitHub accounts on a MacBook
 layout: post
 post-image: ../assets/images/github_multiple_users.png
 date: 2021-11-10 00:40:00
-description: I have two github accounts now. https://github.com/tom6174 and https://github.com/thomas6174. Both are very active accounts. This post outlines how I setup my MacBook for easy git usage.
+description: I have two github accounts now. https://github.com/tom6174 and https://github.com/uc1973. Both are very active accounts. This post outlines how I setup my MacBook for easy git usage.
 category: github
 tags: github multiple_accounts
 permalink: "/blog/:title"
@@ -12,35 +12,65 @@ permalink: "/blog/:title"
 ###### Source : [`Ibrahim's Blog`](https://medium.com/@ibrahimlawal/developing-with-multiple-github-accounts-on-one-macbook-94ff6d4ab9ca)
 
 
-> I am using a third, nonexistent account in the samples to show that this can be extended to more than 2 accounts.
+> I am using a second, nonexistent account in the samples to show that this can be extended to more than 1 account.
 	
 ## Create SSH keys for all accounts
 First make sure your current directory is your ***.ssh*** folder.
 
 ```
 $ cd ~/.ssh 
-$ ssh-keygen -t rsa -C "my@tech-knowledge" -f "github-tom6174" 
-$ ssh-keygen -t rsa -C "my@family-log" -f "github-thomas6174" 
-$ ssh-keygen -t rsa -C "moi@uc-" -f "github-ucsky6174" 
+$ ssh-keygen -t rsa -b 4096 -C "thomas78.song@gmail.com" -f ~/.ssh/id_rsa_tom
+$ ssh-keygen -t rsa -b 4096 -C "uc.thomas78@gmail.com" -f ~/.ssh/id_rsa_uc
 ```
 
 * The **-C** option is a comment to help identify the key.
 * The **-f** option specifies the file name for the key pair.
 
 
-You can choose how to name the key pair. I followed the recommendation here and used ***github-{GitHub username}***.
 You’ll now have a public and private key in your ~/.ssh/ folder.
+
+## Add a passphrase
+Next, you will be prompted to add an (optional) passphrase. We recommend you do so because it adds an extra layer of security: if someone gains access to your computer, your keys will be compromised unless they are attached to a passphrase.
+
+To update the passphrase for your SSH keys:
+```
+$ ssh-keygen -p -f ~/.ssh/id_rsa_tom
+$ ssh-keygen -p -f ~/.ssh/id_rsa_uc
+```
+
+You can check your newly created key with:
+```
+$ ls -la ~/.ssh
+```
 
 ## Add the SSH keys to your SSH-agent
 Your keys are now created but won’t be used until they are added to the agent. Let’s add them.
 
 ```
-$ ssh-add -K ~/.ssh/github-ibrahimlawal
-$ ssh-add -K ~/.ssh/github-ibrahimlawal-paystack
-$ ssh-add -K ~/.ssh/github-ibraheemweynodey
+$ eval "$(ssh-agent -s)" && \
+$ ssh-add -K ~/.ssh/id_rsa_tom
+$ ssh-add -K ~/.ssh/id_rsa_uc
 ```
 
 You only need the **-K** option on a mac. More details on adding keys to the SSH agent here.
+
+
+## Edit your SSH config
+
+If you don’t have one, create an SSH config file `touch ~/.ssh/config` and add the following contents to it:
+```
+#tom6174에 대한 SSH 설정
+Host github.com-tom6174
+    HostName github.com
+    User tom6174
+    IdentityFile ~/.ssh/id_rsa_tom
+
+#uc1973에 대한 SSH 설정
+Host github.com-UC1973
+    HostName github.com
+    User UC1973
+    IdentityFile ~/.ssh/id_rsa_uc
+```
 
 ## Import all the public keys on the corresponding GitHub accounts
 
@@ -49,37 +79,20 @@ You can quickly copy each key to the clipboard with the commands below. After ea
 * Click the ‘New SSH key’ button and paste the public key from clipboard.
 
 ```
-$ pbcopy < ~/.ssh/github-ibrahimlawal.pub
-$ pbcopy < ~/.ssh/github-ibrahimlawal-paystack.pub
-$ pbcopy < ~/.ssh/github-ibrahimweynodey.pub
+$ pbcopy < ~/.ssh/id_rsa_tom.pub
+$ pbcopy < ~/.ssh/id_rsa_uc.pub
+```
+or
+```
+tr -d '\n' < ~/.ssh/id_rsa_tom.pub | pbcopy
+tr -d '\n' < ~/.ssh/id_rsa_uc.pub | pbcopy
 ```
 
+Paste the public key on Github.
+* Sign in to Github Account
+* Goto Settings > SSH and GPG keys > New SSH Key
+* Paste your copied public key and give it a Title of your choice.
 
-## Create GitHub host entries for all accounts
-The ***~/.ssh/config*** file allows you specify a lot of config options for SSH. The commands below create the file if it doesn’t exist. And opens it in your default editing command… Likely TextEdit.
-
-```
-$ open -e ~/.ssh/config
-```
-
-Add these lines to the file, each block corresponding to each account you created earlier.
-```
-#ibrahimlawal account
-Host github.com-ibrahimlawal
-    HostName github.com
-    User git
-    IdentityFile ~/.ssh/github-ibrahimlawal
-#ibrahimlawal-paystack account
-Host github.com-ibrahimlawal-paystack
-    HostName github.com
-    User git
-    IdentityFile ~/.ssh/github-ibrahimlawal-paystack
-#ibraheemweynodey account
-Host github.com-ibraheemweynodey
-    HostName github.com
-    User git
-    IdentityFile ~/.ssh/github-ibraheemweynodey
-```    
 
 ## What account should be default?
 Make it the global:
@@ -97,28 +110,25 @@ For those that are not yet cloned,
 
 ```
 $ git clone git@github.com-{your-username}:{the-repo-organisation-or-owner-user-name}/{the-repo-name}.git
-[e.g. $] git clone git@github.com-ibrahimweynodey:n/n.git
+[e.g. $] git clone git@github.com-tom6174:tom6174/tom6174.github.io.git
 ```
 
 ## Updating remote for repositories already cloned
-Changing the user for repositories already cloned should also take only 3 steps:
+You can now choose to, clone your repo, add or change your remote with:
 
 ```
-$ git remote set-url origin git@github.com-{your-username}:{the-repo-organisation-or-owner-user-name}/{the-repo-name}.git
+$ git remote add origin git@github.com-tom6174:tom6174/tom6174.github.io.git
 
-[e.g. $] git remote set-url origin git@github.com-ibrahimweynodey:n/n.git
+$ git remote set-url origin git@github.com-uc1973:UC1973/uc1973.github.io.git
 ```
 
 ## Finally
 From now on, to ensure that your commits and pushes from each repository on the system uses the correct GitHub user — especially in case it is not to be the default — you will have to do the following in every repository. Freshly cloned or existing before the need to have multiple accounts on a system. Just pick the correct pair. Running all will only mean all repositories will be committed with the play account!
 
 ```
-$ git config user.email "my@pers.on.al"
-$ git config user.name "Ibrahim Lawal"
+$ git config user.email "thomas78.song@gmail.com"
+$ git config user.name "tom6174"
 
-$ git config user.email "my@wo.rk"
-$ git config user.name "Ibrahim Lawal"
-
-$ git config user.email "my@pl.ay"
-$ git config user.name "Ibrahim wey no dey"
+$ git config user.email "uc.thomas78@gmail.com"
+$ git config user.name "UC1973"
 ```

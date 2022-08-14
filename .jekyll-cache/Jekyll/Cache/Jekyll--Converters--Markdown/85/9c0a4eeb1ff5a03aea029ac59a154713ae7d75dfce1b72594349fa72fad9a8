@@ -1,0 +1,119 @@
+I"�<h6 id="source--ibrahims-blog">Source : <a href="https://medium.com/@ibrahimlawal/developing-with-multiple-github-accounts-on-one-macbook-94ff6d4ab9ca"><code class="language-plaintext highlighter-rouge">Ibrahim's Blog</code></a></h6>
+
+<blockquote>
+  <p>I am using a second, nonexistent account in the samples to show that this can be extended to more than 1 account.</p>
+</blockquote>
+
+<h2 id="create-ssh-keys-for-all-accounts">Create SSH keys for all accounts</h2>
+<p>First make sure your current directory is your <strong><em>.ssh</em></strong> folder.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ cd ~/.ssh 
+$ ssh-keygen -t rsa -b 4096 -C "thomas78.song@gmail.com" -f ~/.ssh/id_rsa_tom
+$ ssh-keygen -t rsa -b 4096 -C "uc.thomas78@gmail.com" -f ~/.ssh/id_rsa_uc
+</code></pre></div></div>
+
+<ul>
+  <li>The <strong>-C</strong> option is a comment to help identify the key.</li>
+  <li>The <strong>-f</strong> option specifies the file name for the key pair.</li>
+</ul>
+
+<p>You’ll now have a public and private key in your ~/.ssh/ folder.</p>
+
+<h2 id="add-a-passphrase">Add a passphrase</h2>
+<p>Next, you will be prompted to add an (optional) passphrase. We recommend you do so because it adds an extra layer of security: if someone gains access to your computer, your keys will be compromised unless they are attached to a passphrase.</p>
+
+<p>To update the passphrase for your SSH keys:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ ssh-keygen -p -f ~/.ssh/id_rsa_tom
+$ ssh-keygen -p -f ~/.ssh/id_rsa_uc
+</code></pre></div></div>
+
+<p>You can check your newly created key with:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ ls -la ~/.ssh
+</code></pre></div></div>
+
+<h2 id="add-the-ssh-keys-to-your-ssh-agent">Add the SSH keys to your SSH-agent</h2>
+<p>Your keys are now created but won’t be used until they are added to the agent. Let’s add them.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ eval "$(ssh-agent -s)" &amp;&amp; \
+$ ssh-add -K ~/.ssh/id_rsa_tom
+$ ssh-add -K ~/.ssh/id_rsa_uc
+</code></pre></div></div>
+
+<p>You only need the <strong>-K</strong> option on a mac. More details on adding keys to the SSH agent here.</p>
+
+<h2 id="edit-your-ssh-config">Edit your SSH config</h2>
+
+<p>If you don’t have one, create an SSH config file <code class="language-plaintext highlighter-rouge">touch ~/.ssh/config</code> and add the following contents to it:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#tom6174에 대한 SSH 설정
+Host github.com-tom6174
+    HostName github.com
+    User tom6174
+    IdentityFile ~/.ssh/id_rsa_tom
+
+#uc1973에 대한 SSH 설정
+Host github.com-UC1973
+    HostName github.com
+    User UC1973
+    IdentityFile ~/.ssh/id_rsa_uc
+</code></pre></div></div>
+
+<h2 id="import-all-the-public-keys-on-the-corresponding-github-accounts">Import all the public keys on the corresponding GitHub accounts</h2>
+
+<p>You can quickly copy each key to the clipboard with the commands below. After each copy,</p>
+<ul>
+  <li>Visit <a href="https://github.com/settings/keys" target="_blank">here</a> while logged in to the corresponding GitHub account;</li>
+  <li>Click the ‘New SSH key’ button and paste the public key from clipboard.</li>
+</ul>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ pbcopy &lt; ~/.ssh/id_rsa_tom.pub
+$ pbcopy &lt; ~/.ssh/id_rsa_uc.pub
+</code></pre></div></div>
+<p>or</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>tr -d '\n' &lt; ~/.ssh/id_rsa_tom.pub | pbcopy
+tr -d '\n' &lt; ~/.ssh/id_rsa_uc.pub | pbcopy
+</code></pre></div></div>
+
+<p>Paste the public key on Github.</p>
+<ul>
+  <li>Sign in to Github Account</li>
+  <li>Goto Settings &gt; SSH and GPG keys &gt; New SSH Key</li>
+  <li>Paste your copied public key and give it a Title of your choice.</li>
+</ul>
+
+<h2 id="what-account-should-be-default">What account should be default?</h2>
+<p>Make it the global:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ git config --global user.name "ibrahimlawal"
+$ git config --global user.email "my@pers.on.al"
+</code></pre></div></div>
+<p>This will be used by default.</p>
+
+<h2 id="cloning-github-repositories-using-secondary-accounts">Cloning GitHub repositories using secondary accounts</h2>
+<p>For those that are not yet cloned,</p>
+<ul>
+  <li>Go to the root folder of the repository.</li>
+  <li>Use the format below to craft the clone command</li>
+</ul>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ git clone git@github.com-{your-username}:{the-repo-organisation-or-owner-user-name}/{the-repo-name}.git
+[e.g. $] git clone git@github.com-tom6174:tom6174/tom6174.github.io.git
+</code></pre></div></div>
+
+<h2 id="updating-remote-for-repositories-already-cloned">Updating remote for repositories already cloned</h2>
+<p>You can now choose to, clone your repo, add or change your remote with:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ git remote add origin git@github.com-tom6174:tom6174/tom6174.github.io.git
+
+$ git remote set-url origin git@github.com-uc1973:UC1973/uc1973.github.io.git
+</code></pre></div></div>
+
+<h2 id="finally">Finally</h2>
+<p>From now on, to ensure that your commits and pushes from each repository on the system uses the correct GitHub user — especially in case it is not to be the default — you will have to do the following in every repository. Freshly cloned or existing before the need to have multiple accounts on a system. Just pick the correct pair. Running all will only mean all repositories will be committed with the play account!</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ git config user.email "thomas78.song@gmail.com"
+$ git config user.name "tom6174"
+
+$ git config user.email "uc.thomas78@gmail.com"
+$ git config user.name "UC1973"
+</code></pre></div></div>
+:ET

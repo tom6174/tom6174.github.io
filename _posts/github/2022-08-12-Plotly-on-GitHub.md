@@ -1,7 +1,8 @@
 ---
 title: Display interactive plotly chart (.html file) on GitHub Pages
 layout: post
-post-image:  ../assets/images/heroku.png
+post-image:  ../assets/images/Plotly_GitHub_pages.png
+date: 2022-08-12 12:40:00
 description: 
 tags: github plotly
 category: github
